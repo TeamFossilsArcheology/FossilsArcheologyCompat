@@ -1,0 +1,1019 @@
+{
+  "blocks": [],
+  "items": [
+    {
+      "item": "alexsdelight:bison_burger"
+    },
+    {
+      "item": "alexsdelight:bison_mince"
+    },
+    {
+      "item": "alexsdelight:bison_patty"
+    },
+    {
+      "item": "alexsdelight:bunfungus_sandwich"
+    },
+    {
+      "item": "alexsdelight:cooked_bison"
+    },
+    {
+      "item": "alexsdelight:cooked_bunfungus"
+    },
+    {
+      "item": "alexsdelight:cooked_bunfungus_drumstick"
+    },
+    {
+      "item": "alexsdelight:cooked_centipede_leg"
+    },
+    {
+      "item": "alexsdelight:cooked_kangaroo_shank"
+    },
+    {
+      "item": "alexsdelight:cooked_loose_moose_rib"
+    },
+    {
+      "item": "alexsdelight:kangaroo_pasta"
+    },
+    {
+      "item": "alexsdelight:kangaroo_shank"
+    },
+    {
+      "item": "alexsdelight:kangaroo_stew"
+    },
+    {
+      "item": "alexsdelight:loose_moose_rib"
+    },
+    {
+      "item": "alexsdelight:maggot_salad"
+    },
+    {
+      "item": "alexsdelight:raw_bison"
+    },
+    {
+      "item": "alexsdelight:raw_bunfungus"
+    },
+    {
+      "item": "alexsdelight:raw_bunfungus_drumstick"
+    },
+    {
+      "item": "argentinas_delight:achurasitem"
+    },
+    {
+      "item": "argentinas_delight:alitasdepollo"
+    },
+    {
+      "item": "argentinas_delight:brochetaasada"
+    },
+    {
+      "item": "argentinas_delight:brochetascrudasitem"
+    },
+    {
+      "item": "argentinas_delight:caimanalaparrilla"
+    },
+    {
+      "item": "argentinas_delight:carnedecaiman"
+    },
+    {
+      "item": "argentinas_delight:chinchulinesitem"
+    },
+    {
+      "item": "argentinas_delight:choripan"
+    },
+    {
+      "item": "argentinas_delight:chorizoitem"
+    },
+    {
+      "item": "argentinas_delight:chorizos_crudositem"
+    },
+    {
+      "item": "argentinas_delight:corderocrudo"
+    },
+    {
+      "item": "argentinas_delight:corderoitem"
+    },
+    {
+      "item": "argentinas_delight:cortemardelplata"
+    },
+    {
+      "item": "argentinas_delight:costeletaitem"
+    },
+    {
+      "item": "argentinas_delight:costillar"
+    },
+    {
+      "item": "argentinas_delight:costillasdechancho"
+    },
+    {
+      "item": "argentinas_delight:hamburguesasanguche"
+    },
+    {
+      "item": "argentinas_delight:hamburguesasola"
+    },
+    {
+      "item": "argentinas_delight:mandibulabloque"
+    },
+    {
+      "item": "argentinas_delight:megadibu"
+    },
+    {
+      "item": "argentinas_delight:milanesa"
+    },
+    {
+      "item": "argentinas_delight:milanesacruda"
+    },
+    {
+      "item": "argentinas_delight:muslosdepollo"
+    },
+    {
+      "item": "argentinas_delight:nalga"
+    },
+    {
+      "item": "argentinas_delight:pancetaitem"
+    },
+    {
+      "item": "argentinas_delight:pancontuco"
+    },
+    {
+      "item": "argentinas_delight:papas_rusticas"
+    },
+    {
+      "item": "argentinas_delight:patadechanchotool"
+    },
+    {
+      "item": "argentinas_delight:patadepollo"
+    },
+    {
+      "item": "argentinas_delight:patamusloitem"
+    },
+    {
+      "item": "argentinas_delight:pechugacruda"
+    },
+    {
+      "item": "argentinas_delight:pescadoasadoitem"
+    },
+    {
+      "item": "argentinas_delight:polentaconpajarito"
+    },
+    {
+      "item": "argentinas_delight:polentaconsalsaitem"
+    },
+    {
+      "item": "argentinas_delight:polentaitem"
+    },
+    {
+      "item": "argentinas_delight:polloloco"
+    },
+    {
+      "item": "argentinas_delight:sanguchedemilanesa"
+    },
+    {
+      "item": "argentinas_delight:tirasdeasado"
+    },
+    {
+      "item": "argentinas_delight:tirasdechancho"
+    },
+    {
+      "item": "argentinas_delight:tuco"
+    },
+    {
+      "item": "argentinas_delight:vacio"
+    },
+    {
+      "item": "betteranimalsplus:pheasantcooked"
+    },
+    {
+      "item": "betteranimalsplus:pheasantraw"
+    },
+    {
+      "item": "betteranimalsplus:turkey_cooked"
+    },
+    {
+      "item": "betteranimalsplus:turkey_leg_cooked"
+    },
+    {
+      "item": "betteranimalsplus:turkey_leg_raw"
+    },
+    {
+      "item": "betteranimalsplus:turkey_raw"
+    },
+    {
+      "item": "brewinandchewin:ham_and_cheese_sandwich"
+    },
+    {
+      "item": "brewinandchewin:jerky"
+    },
+    {
+      "item": "brewinandchewin:pizza_slice"
+    },
+    {
+      "item": "butchersdelightfoods:beefribs"
+    },
+    {
+      "item": "butchersdelightfoods:beeftenderloin"
+    },
+    {
+      "item": "butchersdelightfoods:coockedbeeftenderloin"
+    },
+    {
+      "item": "butchersdelightfoods:cooked_goat_loin"
+    },
+    {
+      "item": "butchersdelightfoods:cooked_goat_rack"
+    },
+    {
+      "item": "butchersdelightfoods:cooked_goat_shank"
+    },
+    {
+      "item": "butchersdelightfoods:cooked_ham"
+    },
+    {
+      "item": "butchersdelightfoods:cooked_leg_cow"
+    },
+    {
+      "item": "butchersdelightfoods:cooked_llama_leg"
+    },
+    {
+      "item": "butchersdelightfoods:cooked_llama_loin"
+    },
+    {
+      "item": "butchersdelightfoods:cooked_llama_ribs"
+    },
+    {
+      "item": "butchersdelightfoods:cooked_sheeploin"
+    },
+    {
+      "item": "butchersdelightfoods:cookedbeefribs"
+    },
+    {
+      "item": "butchersdelightfoods:cookedporkloin"
+    },
+    {
+      "item": "butchersdelightfoods:cookedporkribs"
+    },
+    {
+      "item": "butchersdelightfoods:cookedsheeprack"
+    },
+    {
+      "item": "butchersdelightfoods:cookedsheepshank"
+    },
+    {
+      "item": "butchersdelightfoods:goat_loin"
+    },
+    {
+      "item": "butchersdelightfoods:goat_shank"
+    },
+    {
+      "item": "butchersdelightfoods:goatrack"
+    },
+    {
+      "item": "butchersdelightfoods:ham"
+    },
+    {
+      "item": "butchersdelightfoods:legcow"
+    },
+    {
+      "item": "butchersdelightfoods:llama_leg"
+    },
+    {
+      "item": "butchersdelightfoods:llama_loin"
+    },
+    {
+      "item": "butchersdelightfoods:llamma_ribs"
+    },
+    {
+      "item": "butchersdelightfoods:porkloin"
+    },
+    {
+      "item": "butchersdelightfoods:porkribs"
+    },
+    {
+      "item": "butchersdelightfoods:sheeploin"
+    },
+    {
+      "item": "butchersdelightfoods:sheeprack"
+    },
+    {
+      "item": "butchersdelightfoods:sheepshank"
+    },
+    {
+      "tag": "c:foods/cooked_meat"
+    },
+    {
+      "tag": "c:foods/raw_meat"
+    },
+    {
+      "item": "casualness_delight:beef_noodles"
+    },
+    {
+      "item": "casualness_delight:bobo_chicken"
+    },
+    {
+      "item": "casualness_delight:bowl_of_fried_dumpling"
+    },
+    {
+      "item": "casualness_delight:cooked_donkey_meat"
+    },
+    {
+      "item": "casualness_delight:donkey_burger"
+    },
+    {
+      "item": "casualness_delight:fried_chicken_chip"
+    },
+    {
+      "item": "casualness_delight:fried_dumpling"
+    },
+    {
+      "item": "casualness_delight:phantom_dumplings"
+    },
+    {
+      "item": "casualness_delight:quiche_lorraine_slice"
+    },
+    {
+      "item": "casualness_delight:raw_chicken_bobo_chicken",
+      "value": 20
+    },
+    {
+      "item": "casualness_delight:raw_chicken_bobo_chicken",
+      "value": 20
+    },
+    {
+      "item": "casualness_delight:raw_donkey_meat"
+    },
+    {
+      "item": "casualness_delight:raw_fried_dumpling"
+    },
+    {
+      "item": "casualness_delight:raw_spring_roll",
+      "value": 20
+    },
+    {
+      "item": "casualness_delight:spring_roll"
+    },
+    {
+      "item": "casualness_delight:spring_roll_medley",
+      "value": 180
+    },
+    {
+      "item": "casualness_delight:tonkatsu"
+    },
+    {
+      "item": "corn_delight:classic_corn_dog"
+    },
+    {
+      "item": "corn_delight:corn_dog"
+    },
+    {
+      "item": "corn_delight:nachos_bowl"
+    },
+    {
+      "item": "corn_delight:taco"
+    },
+    {
+      "item": "crabbersdelight:clam_chowder"
+    },
+    {
+      "item": "crabbersdelight:cooked_clam_meat"
+    },
+    {
+      "item": "crabbersdelight:raw_clam_meat"
+    },
+    {
+      "item": "crabbersdelight:seafood_gumbo"
+    },
+    {
+      "item": "crabbersdelight:surf_and_turf"
+    },
+    {
+      "item": "culturaldelights:beef_burrito"
+    },
+    {
+      "item": "culturaldelights:chicken_roll"
+    },
+    {
+      "item": "culturaldelights:chicken_roll_slice"
+    },
+    {
+      "item": "culturaldelights:chicken_taco"
+    },
+    {
+      "item": "culturaldelights:mutton_sandwich"
+    },
+    {
+      "item": "culturaldelights:pork_wrap"
+    },
+    {
+      "item": "culturaldelights:spicy_curry"
+    },
+    {
+      "item": "delightful:animal_fat"
+    },
+    {
+      "item": "delightful:cheeseburger"
+    },
+    {
+      "item": "delightful:chunk_nugget"
+    },
+    {
+      "item": "delightful:chunkwich"
+    },
+    {
+      "item": "delightful:cooked_goat"
+    },
+    {
+      "item": "delightful:cooked_venison_chops"
+    },
+    {
+      "item": "delightful:crab_rangoon"
+    },
+    {
+      "item": "delightful:deluxe_cheeseburger"
+    },
+    {
+      "item": "delightful:raw_goat"
+    },
+    {
+      "item": "delightful:sinigang"
+    },
+    {
+      "item": "delightful:venison_chops"
+    },
+    {
+      "item": "endersdelight:crawling_sandwich"
+    },
+    {
+      "item": "endersdelight:crispy_skewer"
+    },
+    {
+      "item": "endersdelight:ender_paella"
+    },
+    {
+      "item": "endersdelight:ender_paella_wood"
+    },
+    {
+      "item": "endersdelight:endermite_stew"
+    },
+    {
+      "item": "endersdelight:endermite_stew_wood"
+    },
+    {
+      "item": "endersdelight:uncanny_cookies"
+    },
+    {
+      "item": "ends_delight:dragon_leg"
+    },
+    {
+      "item": "ends_delight:dragon_leg_with_sauce"
+    },
+    {
+      "item": "ends_delight:dragon_meat_stew"
+    },
+    {
+      "item": "ends_delight:dried_endermite_meat"
+    },
+    {
+      "item": "ends_delight:end_barbecue_stick"
+    },
+    {
+      "item": "ends_delight:ender_congee"
+    },
+    {
+      "item": "ends_delight:grilled_shulker"
+    },
+    {
+      "item": "ends_delight:raw_dragon_meat"
+    },
+    {
+      "item": "ends_delight:raw_dragon_meat_cuts"
+    },
+    {
+      "item": "ends_delight:raw_ender_mite_meat"
+    },
+    {
+      "item": "ends_delight:roasted_dragon_meat"
+    },
+    {
+      "item": "ends_delight:roasted_dragon_meat_cuts"
+    },
+    {
+      "item": "ends_delight:roasted_dragon_steak"
+    },
+    {
+      "item": "ends_delight:roasted_shulker_meat"
+    },
+    {
+      "item": "ends_delight:roasted_shulker_meat_slice"
+    },
+    {
+      "item": "ends_delight:shulker_meat"
+    },
+    {
+      "item": "ends_delight:shulker_meat_slice"
+    },
+    {
+      "item": "ends_delight:smoked_dragon_leg"
+    },
+    {
+      "item": "ends_delight:stir_fried_shulker_meat"
+    },
+    {
+      "item": "exoticbirds:cooked_birdmeat"
+    },
+    {
+      "item": "exoticbirds:raw_birdmeat"
+    },
+    {
+      "item": "farmersdelight:bacon"
+    },
+    {
+      "item": "farmersdelight:bacon_and_eggs"
+    },
+    {
+      "item": "farmersdelight:bacon_sandwich"
+    },
+    {
+      "item": "farmersdelight:barbecue_stick"
+    },
+    {
+      "item": "farmersdelight:beef_patty"
+    },
+    {
+      "item": "farmersdelight:beef_stew"
+    },
+    {
+      "item": "farmersdelight:bone_broth"
+    },
+    {
+      "item": "farmersdelight:cabbage_rolls"
+    },
+    {
+      "item": "farmersdelight:chicken_cuts"
+    },
+    {
+      "item": "farmersdelight:chicken_sandwich"
+    },
+    {
+      "item": "farmersdelight:chicken_soup"
+    },
+    {
+      "item": "farmersdelight:cooked_bacon"
+    },
+    {
+      "item": "farmersdelight:cooked_chicken_cuts"
+    },
+    {
+      "item": "farmersdelight:dumplings"
+    },
+    {
+      "item": "farmersdelight:ham"
+    },
+    {
+      "item": "farmersdelight:hamburger"
+    },
+    {
+      "item": "farmersdelight:minced_beef"
+    },
+    {
+      "item": "farmersdelight:mutton_wrap"
+    },
+    {
+      "item": "farmersdelight:noodle_soup"
+    },
+    {
+      "item": "farmersdelight:pasta_with_meatballs"
+    },
+    {
+      "item": "farmersdelight:pasta_with_mutton_chop"
+    },
+    {
+      "item": "farmersdelight:roast_chicken"
+    },
+    {
+      "item": "farmersdelight:roasted_mutton_chops"
+    },
+    {
+      "item": "farmersdelight:roasted_mutton_chops"
+    },
+    {
+      "item": "farmersdelight:roasted_mutton_chops"
+    },
+    {
+      "item": "farmersdelight:roasted_mutton_chops"
+    },
+    {
+      "item": "farmersdelight:smoked_ham"
+    },
+    {
+      "item": "farmersdelight:steak_and_potatoes"
+    },
+    {
+      "item": "farmersdelight:stuffed_potato"
+    },
+    {
+      "item": "farmersrespite:blazing_chili"
+    },
+    {
+      "item": "festive_delight:festive_chiken"
+    },
+    {
+      "item": "fossil:failuresaurus_flesh",
+      "value": 15
+    },
+    {
+      "item": "italian_delight:pizza_prosciutto_slice"
+    },
+    {
+      "item": "italian_delight:salami"
+    },
+    {
+      "item": "italian_delight:salami_pieces"
+    },
+    {
+      "item": "italian_delight:wine_salami"
+    },
+    {
+      "item": "largemeals:hearty_lunch"
+    },
+    {
+      "item": "largemeals:mushroom_pot_pie",
+      "value": 200
+    },
+    {
+      "item": "largemeals:mushroom_pot_pie_slice"
+    },
+    {
+      "item": "largemeals:omurice"
+    },
+    {
+      "item": "miners_delight:bat_wing"
+    },
+    {
+      "item": "miners_delight:beef_stew_cup"
+    },
+    {
+      "item": "miners_delight:chicken_soup_cup"
+    },
+    {
+      "item": "miners_delight:improvised_barbecue_stick"
+    },
+    {
+      "item": "miners_delight:noodle_soup_cup"
+    },
+    {
+      "item": "miners_delight:pumpkin_soup_cup"
+    },
+    {
+      "item": "miners_delight:rabbit_stew_cup"
+    },
+    {
+      "item": "miners_delight:smoked_bat_wing"
+    },
+    {
+      "item": "naturalist:cooked_venison"
+    },
+    {
+      "item": "naturalist:venison"
+    },
+    {
+      "item": "nethersdelight:grilled_strider"
+    },
+    {
+      "item": "nethersdelight:ground_strider"
+    },
+    {
+      "item": "nethersdelight:hoglin_ear"
+    },
+    {
+      "item": "nethersdelight:hoglin_loin"
+    },
+    {
+      "item": "nethersdelight:hoglin_sirloin"
+    },
+    {
+      "item": "nethersdelight:nether_skewer"
+    },
+    {
+      "item": "nethersdelight:plate_of_stuffed_hoglin_ham"
+    },
+    {
+      "item": "nethersdelight:plate_of_stuffed_hoglin_roast"
+    },
+    {
+      "item": "nethersdelight:plate_of_stuffed_hoglin_snout"
+    },
+    {
+      "item": "nethersdelight:strider_moss_stew"
+    },
+    {
+      "item": "nethersdelight:strider_slice"
+    },
+    {
+      "item": "nethersdelight:warped_moldy_meat"
+    },
+    {
+      "item": "seeddelight:cherry_pork"
+    },
+    {
+      "item": "seeddelight:pinenut_with_meatballs"
+    },
+    {
+      "item": "seeddelight:roasted_beef_with_seed"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "betteranimalsplus:badger",
+      "value": 8
+    },
+    {
+      "entity": "betteranimalsplus:blackbear",
+      "value": 40
+    },
+    {
+      "entity": "betteranimalsplus:boar",
+      "value": 30
+    },
+    {
+      "entity": "betteranimalsplus:brownbear",
+      "value": 40
+    },
+    {
+      "entity": "betteranimalsplus:coyote",
+      "value": 15
+    },
+    {
+      "entity": "betteranimalsplus:deer",
+      "value": 35
+    },
+    {
+      "entity": "betteranimalsplus:feralwolf",
+      "value": 15
+    },
+    {
+      "entity": "betteranimalsplus:goose",
+      "value": 10
+    },
+    {
+      "entity": "betteranimalsplus:lammergeier",
+      "value": 8
+    },
+    {
+      "entity": "betteranimalsplus:moose",
+      "value": 45
+    },
+    {
+      "entity": "betteranimalsplus:pheasant",
+      "value": 10
+    },
+    {
+      "entity": "betteranimalsplus:reindeer",
+      "value": 35
+    },
+    {
+      "entity": "betteranimalsplus:songbird",
+      "value": 3
+    },
+    {
+      "entity": "betteranimalsplus:squirrel",
+      "value": 3
+    },
+    {
+      "entity": "betteranimalsplus:tarantula"
+    },
+    {
+      "entity": "betteranimalsplus:turkey",
+      "value": 10
+    },
+    {
+      "entity": "betteranimalsplus:walrus",
+      "value": 30
+    },
+    {
+      "entity": "exoticbirds:bluejay",
+      "value": 3
+    },
+    {
+      "entity": "exoticbirds:booby",
+      "value": 7
+    },
+    {
+      "entity": "exoticbirds:budgerigar",
+      "value": 3
+    },
+    {
+      "entity": "exoticbirds:cardinal",
+      "value": 3
+    },
+    {
+      "entity": "exoticbirds:cassowary",
+      "value": 25
+    },
+    {
+      "entity": "exoticbirds:cockatoo",
+      "value": 5
+    },
+    {
+      "entity": "exoticbirds:crane",
+      "value": 15
+    },
+    {
+      "entity": "exoticbirds:duck",
+      "value": 10
+    },
+    {
+      "entity": "exoticbirds:flamingo",
+      "value": 7
+    },
+    {
+      "entity": "exoticbirds:gouldianfinch",
+      "value": 3
+    },
+    {
+      "entity": "exoticbirds:gull",
+      "value": 5
+    },
+    {
+      "entity": "exoticbirds:heron",
+      "value": 15
+    },
+    {
+      "entity": "exoticbirds:hummingbird",
+      "value": 3
+    },
+    {
+      "entity": "exoticbirds:kingfisher",
+      "value": 5
+    },
+    {
+      "entity": "exoticbirds:kiwi",
+      "value": 3
+    },
+    {
+      "entity": "exoticbirds:kookaburra",
+      "value": 5
+    },
+    {
+      "entity": "exoticbirds:lyrebird",
+      "value": 3
+    },
+    {
+      "entity": "exoticbirds:macaw",
+      "value": 5
+    },
+    {
+      "entity": "exoticbirds:magpie",
+      "value": 3
+    },
+    {
+      "entity": "exoticbirds:ostrich",
+      "value": 27
+    },
+    {
+      "entity": "exoticbirds:owl",
+      "value": 7
+    },
+    {
+      "entity": "exoticbirds:peafowl",
+      "value": 10
+    },
+    {
+      "entity": "exoticbirds:pelican",
+      "value": 5
+    },
+    {
+      "entity": "exoticbirds:penguin",
+      "value": 7
+    },
+    {
+      "entity": "exoticbirds:pigeon",
+      "value": 3
+    },
+    {
+      "entity": "exoticbirds:roadrunner",
+      "value": 5
+    },
+    {
+      "entity": "exoticbirds:robin",
+      "value": 3
+    },
+    {
+      "entity": "exoticbirds:swan",
+      "value": 12
+    },
+    {
+      "entity": "exoticbirds:toucan",
+      "value": 7
+    },
+    {
+      "entity": "exoticbirds:woodpecker",
+      "value": 3
+    },
+    {
+      "entity": "naturalist:bear",
+      "value": 35
+    },
+    {
+      "entity": "naturalist:bluejay",
+      "value": 5
+    },
+    {
+      "entity": "naturalist:boar",
+      "value": 10
+    },
+    {
+      "entity": "naturalist:canary",
+      "value": 5
+    },
+    {
+      "entity": "naturalist:cardinal",
+      "value": 5
+    },
+    {
+      "entity": "naturalist:coral_snake",
+      "value": 10
+    },
+    {
+      "entity": "naturalist:deer",
+      "value": 40
+    },
+    {
+      "entity": "naturalist:elephant",
+      "value": 80
+    },
+    {
+      "entity": "naturalist:giraffe",
+      "value": 50
+    },
+    {
+      "entity": "naturalist:hippo",
+      "value": 80
+    },
+    {
+      "entity": "naturalist:lion",
+      "value": 40
+    },
+    {
+      "entity": "naturalist:rattlesnake",
+      "value": 10
+    },
+    {
+      "entity": "naturalist:rhino",
+      "value": 60
+    },
+    {
+      "entity": "naturalist:robin",
+      "value": 5
+    },
+    {
+      "entity": "naturalist:snake",
+      "value": 10
+    },
+    {
+      "entity": "naturalist:vulture",
+      "value": 15
+    },
+    {
+      "entity": "naturalist:zebra",
+      "value": 40
+    },
+    {
+      "entity": "quark:crab",
+      "value": 5
+    },
+    {
+      "entity": "quark:frog",
+      "value": 3
+    },
+    {
+      "entity": "rats:rat",
+      "value": 5
+    },
+    {
+      "entity": "totemic:bald_eagle",
+      "value": 8
+    },
+    {
+      "entity": "totemic:buffalo",
+      "value": 55
+    },
+    {
+      "entity": "twilightforest:bighorn_sheep",
+      "value": 35
+    },
+    {
+      "entity": "twilightforest:boar",
+      "value": 20
+    },
+    {
+      "entity": "twilightforest:deer",
+      "value": 35
+    },
+    {
+      "entity": "twilightforest:penguin",
+      "value": 10
+    },
+    {
+      "entity": "twilightforest:squirrel",
+      "value": 3
+    }
+  ]
+}

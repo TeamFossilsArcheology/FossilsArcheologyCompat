@@ -1,0 +1,300 @@
+{
+  "blocks": [],
+  "items": [
+    {
+      "item": "alexsdelight:cooked_catfish_slice"
+    },
+    {
+      "item": "alexsdelight:lobster_pasta"
+    },
+    {
+      "item": "alexsdelight:raw_catfish_slice"
+    },
+    {
+      "item": "betteranimalsplus:calamari_cooked"
+    },
+    {
+      "item": "betteranimalsplus:calamari_raw"
+    },
+    {
+      "item": "betteranimalsplus:crab_meat_cooked"
+    },
+    {
+      "item": "betteranimalsplus:crab_meat_raw"
+    },
+    {
+      "item": "betteranimalsplus:eel_meat_cooked"
+    },
+    {
+      "item": "betteranimalsplus:eel_meat_raw"
+    },
+    {
+      "item": "brewinandchewin:kippers"
+    },
+    {
+      "tag": "c:foods/cooked_fish"
+    },
+    {
+      "tag": "c:foods/raw_fish"
+    },
+    {
+      "item": "casualness_delight:bowl_of_paper_wrapped_fish"
+    },
+    {
+      "item": "casualness_delight:fish_and_chips"
+    },
+    {
+      "item": "casualness_delight:fried_fish"
+    },
+    {
+      "item": "crabbersdelight:bisque"
+    },
+    {
+      "item": "crabbersdelight:clam_bake"
+    },
+    {
+      "item": "crabbersdelight:clawster"
+    },
+    {
+      "item": "crabbersdelight:cooked_clawster"
+    },
+    {
+      "item": "crabbersdelight:cooked_crab"
+    },
+    {
+      "item": "crabbersdelight:cooked_shrimp"
+    },
+    {
+      "item": "crabbersdelight:cooked_tropical_fish"
+    },
+    {
+      "item": "crabbersdelight:cooked_tropical_fish_slice"
+    },
+    {
+      "item": "crabbersdelight:crab"
+    },
+    {
+      "item": "crabbersdelight:crab_cakes"
+    },
+    {
+      "item": "crabbersdelight:crab_legs"
+    },
+    {
+      "item": "crabbersdelight:fish_stick"
+    },
+    {
+      "item": "crabbersdelight:shrimp"
+    },
+    {
+      "item": "crabbersdelight:shrimp_skewer"
+    },
+    {
+      "item": "crabbersdelight:stuffed_nautilus_shell"
+    },
+    {
+      "item": "crabbersdelight:tropical_fish_slice"
+    },
+    {
+      "item": "culturaldelights:calamari_roll"
+    },
+    {
+      "item": "culturaldelights:cooked_calamari"
+    },
+    {
+      "item": "culturaldelights:cooked_squid"
+    },
+    {
+      "item": "culturaldelights:fish_taco"
+    },
+    {
+      "item": "culturaldelights:pufferfish_roll"
+    },
+    {
+      "item": "culturaldelights:raw_calamari"
+    },
+    {
+      "item": "culturaldelights:rice_ball"
+    },
+    {
+      "item": "culturaldelights:squid"
+    },
+    {
+      "item": "culturaldelights:tropical_roll"
+    },
+    {
+      "item": "farmersdelight:baked_cod_stew"
+    },
+    {
+      "item": "farmersdelight:cod_roll"
+    },
+    {
+      "item": "farmersdelight:cod_roll"
+    },
+    {
+      "item": "farmersdelight:cod_roll"
+    },
+    {
+      "item": "farmersdelight:cod_slice"
+    },
+    {
+      "item": "farmersdelight:cooked_cod_slice"
+    },
+    {
+      "item": "farmersdelight:cooked_salmon_slice"
+    },
+    {
+      "item": "farmersdelight:fish_stew"
+    },
+    {
+      "item": "farmersdelight:grilled_salmon"
+    },
+    {
+      "item": "farmersdelight:salmon_roll"
+    },
+    {
+      "item": "farmersdelight:salmon_slice"
+    },
+    {
+      "item": "farmersrespite:black_cod"
+    },
+    {
+      "item": "largemeals:cod_deluxe"
+    },
+    {
+      "item": "largemeals:cod_surprise"
+    },
+    {
+      "item": "largemeals:pufferfish_broth"
+    },
+    {
+      "item": "miners_delight:baked_cod_stew_cup"
+    },
+    {
+      "item": "miners_delight:baked_squid"
+    },
+    {
+      "item": "miners_delight:baked_tentacles"
+    },
+    {
+      "item": "miners_delight:bowl_of_stuffed_squid"
+    },
+    {
+      "item": "miners_delight:fish_stew_cup"
+    },
+    {
+      "item": "miners_delight:glow_squid"
+    },
+    {
+      "item": "miners_delight:squid"
+    },
+    {
+      "item": "miners_delight:tentacles"
+    },
+    {
+      "item": "miners_delight:weird_caviar"
+    },
+    {
+      "item": "oceansdelight:baked_tentacle_on_a_stick"
+    },
+    {
+      "item": "oceansdelight:bowl_of_guardian_soup"
+    },
+    {
+      "item": "oceansdelight:cabbage_wrapped_elder_guardian"
+    },
+    {
+      "item": "oceansdelight:cooked_elder_guardian_slice"
+    },
+    {
+      "item": "oceansdelight:cooked_guardian_tail"
+    },
+    {
+      "item": "oceansdelight:cut_tentacles"
+    },
+    {
+      "item": "oceansdelight:elder_guardian_roll"
+    },
+    {
+      "item": "oceansdelight:elder_guardian_slab"
+    },
+    {
+      "item": "oceansdelight:elder_guardian_slice"
+    },
+    {
+      "item": "oceansdelight:fugu_roll"
+    },
+    {
+      "item": "oceansdelight:fugu_slice"
+    },
+    {
+      "item": "oceansdelight:guardian_tail"
+    },
+    {
+      "item": "oceansdelight:squid_rings"
+    },
+    {
+      "item": "oceansdelight:tentacle_on_a_stick"
+    },
+    {
+      "item": "oceansdelight:tentacles"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "betteranimalsplus:barracuda",
+      "value": 15
+    },
+    {
+      "entity": "betteranimalsplus:crab",
+      "value": 5
+    },
+    {
+      "entity": "betteranimalsplus:eel_freshwater",
+      "value": 20
+    },
+    {
+      "entity": "betteranimalsplus:eel_saltwater",
+      "value": 20
+    },
+    {
+      "entity": "betteranimalsplus:flying_fish",
+      "value": 5
+    },
+    {
+      "entity": "betteranimalsplus:horseshoecrab",
+      "value": 7
+    },
+    {
+      "entity": "betteranimalsplus:jellyfish",
+      "value": 8
+    },
+    {
+      "entity": "betteranimalsplus:lamprey",
+      "value": 5
+    },
+    {
+      "entity": "betteranimalsplus:nautilus",
+      "value": 10
+    },
+    {
+      "entity": "betteranimalsplus:octopus",
+      "value": 25
+    },
+    {
+      "entity": "betteranimalsplus:shark",
+      "value": 40
+    },
+    {
+      "entity": "betteranimalsplus:squid_colossal",
+      "value": 40
+    },
+    {
+      "entity": "betteranimalsplus:squid_giant",
+      "value": 40
+    },
+    {
+      "entity": "betteranimalsplus:whale",
+      "value": 60
+    }
+  ]
+}

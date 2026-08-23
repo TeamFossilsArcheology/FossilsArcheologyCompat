@@ -1,0 +1,166 @@
+{
+  "blocks": [],
+  "items": [
+    {
+      "item": "betteranimalsplus:fried_egg"
+    },
+    {
+      "item": "betteranimalsplus:golden_goose_egg",
+      "value": 18
+    },
+    {
+      "item": "betteranimalsplus:goose_egg",
+      "value": 12
+    },
+    {
+      "item": "betteranimalsplus:pheasant_egg",
+      "value": 7
+    },
+    {
+      "item": "betteranimalsplus:turkey_egg",
+      "value": 7
+    },
+    {
+      "item": "culturaldelights:egg_roll"
+    },
+    {
+      "item": "ends_delight:fried_dragon_egg"
+    },
+    {
+      "item": "ends_delight:liquid_dragon_egg"
+    },
+    {
+      "item": "ends_delight:steamed_dragon_egg"
+    },
+    {
+      "item": "exoticbirds:bluejay_egg",
+      "value": 3
+    },
+    {
+      "item": "exoticbirds:booby_egg",
+      "value": 7
+    },
+    {
+      "item": "exoticbirds:budgerigar_egg",
+      "value": 3
+    },
+    {
+      "item": "exoticbirds:cardinal_egg",
+      "value": 3
+    },
+    {
+      "item": "exoticbirds:cassowary_egg",
+      "value": 15
+    },
+    {
+      "item": "exoticbirds:cockatoo_egg",
+      "value": 5
+    },
+    {
+      "item": "exoticbirds:crane_egg",
+      "value": 12
+    },
+    {
+      "item": "exoticbirds:duck_egg",
+      "value": 10
+    },
+    {
+      "item": "exoticbirds:flamingo_egg",
+      "value": 7
+    },
+    {
+      "item": "exoticbirds:gouldianfinch_egg",
+      "value": 3
+    },
+    {
+      "item": "exoticbirds:gull_egg",
+      "value": 5
+    },
+    {
+      "item": "exoticbirds:heron_egg",
+      "value": 12
+    },
+    {
+      "item": "exoticbirds:hummingbird_egg",
+      "value": 3
+    },
+    {
+      "item": "exoticbirds:kingfisher_egg",
+      "value": 5
+    },
+    {
+      "item": "exoticbirds:kiwi_egg",
+      "value": 3
+    },
+    {
+      "item": "exoticbirds:kookaburra_egg",
+      "value": 5
+    },
+    {
+      "item": "exoticbirds:lyrebird_egg",
+      "value": 3
+    },
+    {
+      "item": "exoticbirds:macaw_egg",
+      "value": 5
+    },
+    {
+      "item": "exoticbirds:magpie_egg",
+      "value": 3
+    },
+    {
+      "item": "exoticbirds:ostrich_egg",
+      "value": 17
+    },
+    {
+      "item": "exoticbirds:owl_egg",
+      "value": 7
+    },
+    {
+      "item": "exoticbirds:peafowl_egg",
+      "value": 7
+    },
+    {
+      "item": "exoticbirds:pelican_egg",
+      "value": 5
+    },
+    {
+      "item": "exoticbirds:penguin_egg",
+      "value": 7
+    },
+    {
+      "item": "exoticbirds:pigeon_egg",
+      "value": 3
+    },
+    {
+      "item": "exoticbirds:roadrunner_egg",
+      "value": 5
+    },
+    {
+      "item": "exoticbirds:robin_egg",
+      "value": 3
+    },
+    {
+      "item": "exoticbirds:swan_egg",
+      "value": 10
+    },
+    {
+      "item": "exoticbirds:toucan_egg",
+      "value": 7
+    },
+    {
+      "item": "exoticbirds:woodpecker_egg",
+      "value": 3
+    },
+    {
+      "item": "farmersdelight:egg_sandwich"
+    },
+    {
+      "item": "farmersdelight:fried_egg"
+    },
+    {
+      "item": "miners_delight:silverfish_eggs"
+    }
+  ],
+  "entities": []
+}

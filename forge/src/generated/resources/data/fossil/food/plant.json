@@ -1,0 +1,1020 @@
+{
+  "blocks": [
+    {
+      "block": "culturaldelights:avocado_leaves",
+      "value": 100
+    },
+    {
+      "block": "culturaldelights:avocado_sapling",
+      "value": 75
+    },
+    {
+      "block": "farmersrespite:wild_tea_bush",
+      "value": 100
+    },
+    {
+      "block": "festive_delight:cinnamon_bush",
+      "value": 75
+    },
+    {
+      "block": "fossil:bennettitales_large",
+      "value": 30
+    },
+    {
+      "block": "fossil:bennettitales_small",
+      "value": 15
+    },
+    {
+      "block": "fossil:cephalotaxus",
+      "value": 15
+    },
+    {
+      "block": "fossil:crataegus",
+      "value": 35
+    },
+    {
+      "block": "fossil:cyathea",
+      "value": 60
+    },
+    {
+      "block": "fossil:dictyophyllum",
+      "value": 15
+    },
+    {
+      "block": "fossil:dillhoffia",
+      "value": 15
+    },
+    {
+      "block": "fossil:dipteris",
+      "value": 30
+    },
+    {
+      "block": "fossil:duisbergia",
+      "value": 30
+    },
+    {
+      "block": "fossil:ephedra",
+      "value": 25
+    },
+    {
+      "block": "fossil:florissantia",
+      "value": 15
+    },
+    {
+      "block": "fossil:foozia",
+      "value": 30
+    },
+    {
+      "block": "fossil:horsetail_large",
+      "value": 30
+    },
+    {
+      "block": "fossil:horsetail_small",
+      "value": 15
+    },
+    {
+      "block": "fossil:licopodiophyta",
+      "value": 15
+    },
+    {
+      "block": "fossil:osmunda",
+      "value": 15
+    },
+    {
+      "block": "fossil:plant_ferns",
+      "value": 15
+    },
+    {
+      "block": "fossil:sagenopteris",
+      "value": 15
+    },
+    {
+      "block": "fossil:sarracenia",
+      "value": 30
+    },
+    {
+      "block": "fossil:vaccinium",
+      "value": 35
+    },
+    {
+      "block": "fossil:welwitschia",
+      "value": 15
+    },
+    {
+      "block": "fossil:zamites",
+      "value": 30
+    },
+    {
+      "block": "honeyexpansion:honey_cake",
+      "value": 350
+    },
+    {
+      "block": "nethersdelight:propelplant_cane",
+      "value": 75
+    },
+    {
+      "block": "nethersdelight:propelplant_stem",
+      "value": 75
+    },
+    {
+      "block": "pineapple_delight:pineapple_cake",
+      "value": 300
+    },
+    {
+      "block": "pineapple_delight:pineapple_crop",
+      "value": 25
+    },
+    {
+      "block": "pineapple_delight:pineapple_pie",
+      "value": 100
+    },
+    {
+      "block": "pineapple_delight:pineapple_wild_crop",
+      "value": 25
+    }
+  ],
+  "items": [
+    {
+      "item": "alexsdelight:acacia_blossom_soup"
+    },
+    {
+      "item": "alexsdelight:gongylidia_bruschetta"
+    },
+    {
+      "item": "argentinas_delight:batata"
+    },
+    {
+      "item": "argentinas_delight:batataalhorno"
+    },
+    {
+      "item": "argentinas_delight:batatafrita"
+    },
+    {
+      "item": "argentinas_delight:batatasadaitem"
+    },
+    {
+      "item": "argentinas_delight:bolasdefraile"
+    },
+    {
+      "item": "argentinas_delight:calabazitarellena"
+    },
+    {
+      "item": "argentinas_delight:chicharron"
+    },
+    {
+      "item": "argentinas_delight:choclo"
+    },
+    {
+      "item": "argentinas_delight:dulcebatatabloque"
+    },
+    {
+      "item": "argentinas_delight:espinacaitem"
+    },
+    {
+      "item": "argentinas_delight:harinadetrigo"
+    },
+    {
+      "item": "argentinas_delight:harinamaiz"
+    },
+    {
+      "item": "argentinas_delight:levadura"
+    },
+    {
+      "item": "argentinas_delight:membrillo"
+    },
+    {
+      "item": "argentinas_delight:membrillobloque"
+    },
+    {
+      "item": "argentinas_delight:pancaseroporcion"
+    },
+    {
+      "item": "argentinas_delight:panconchicharronitem"
+    },
+    {
+      "item": "argentinas_delight:papasfritas"
+    },
+    {
+      "item": "argentinas_delight:postre_vigilantebatata"
+    },
+    {
+      "item": "argentinas_delight:purebatataitem"
+    },
+    {
+      "item": "argentinas_delight:rodajasdecalabazasitem"
+    },
+    {
+      "item": "argentinas_delight:rosquita"
+    },
+    {
+      "item": "argentinas_delight:tomatitos_cherry"
+    },
+    {
+      "item": "argentinas_delight:torreja"
+    },
+    {
+      "item": "argentinas_delight:tostadacondulcedeleche"
+    },
+    {
+      "item": "argentinas_delight:tostaditas"
+    },
+    {
+      "item": "ars_nouveau:source_berry_pie",
+      "value": 60
+    },
+    {
+      "item": "brewinandchewin:cocoa_fudge"
+    },
+    {
+      "item": "brewinandchewin:kimchi"
+    },
+    {
+      "item": "brewinandchewin:kimchi"
+    },
+    {
+      "item": "brewinandchewin:pickled_pickles"
+    },
+    {
+      "item": "byg:blueberry_pie",
+      "value": 60
+    },
+    {
+      "item": "byg:crimson_berry_pie",
+      "value": 60
+    },
+    {
+      "item": "byg:green_apple_pie",
+      "value": 60
+    },
+    {
+      "item": "byg:nightshade_berry_pie",
+      "value": 60
+    },
+    {
+      "item": "casualness_delight:bowl_of_sweet_rice"
+    },
+    {
+      "item": "casualness_delight:cabbage_bobo_chicken"
+    },
+    {
+      "item": "casualness_delight:gluten"
+    },
+    {
+      "item": "casualness_delight:gluten_skewer"
+    },
+    {
+      "item": "casualness_delight:potato_bobo_chicken"
+    },
+    {
+      "item": "casualness_delight:potato_chip"
+    },
+    {
+      "item": "casualness_delight:potato_slice",
+      "value": 20
+    },
+    {
+      "item": "casualness_delight:raw_cabbage_bobo_chicken",
+      "value": 20
+    },
+    {
+      "item": "casualness_delight:raw_gluten"
+    },
+    {
+      "item": "casualness_delight:raw_potato_bobo_chicken",
+      "value": 20
+    },
+    {
+      "item": "casualness_delight:roast_gluten"
+    },
+    {
+      "item": "casualness_delight:yorkshire_pudding"
+    },
+    {
+      "item": "coffee_delight:berries_wafer"
+    },
+    {
+      "item": "coffee_delight:coffee_beans"
+    },
+    {
+      "item": "coffee_delight:coffee_beans_cooked"
+    },
+    {
+      "item": "coffee_delight:coffee_berries",
+      "value": 5
+    },
+    {
+      "item": "coffee_delight:coffee_flour",
+      "value": 15
+    },
+    {
+      "item": "coffee_delight:coffee_pie"
+    },
+    {
+      "item": "coffee_delight:coffee_pie_side"
+    },
+    {
+      "item": "coffee_delight:coffee_wafer"
+    },
+    {
+      "item": "coffee_delight:quiche_side"
+    },
+    {
+      "item": "coffee_delight:wafer"
+    },
+    {
+      "item": "corn_delight:boiled_corn"
+    },
+    {
+      "item": "corn_delight:caramel_popcorn"
+    },
+    {
+      "item": "corn_delight:corn"
+    },
+    {
+      "item": "corn_delight:corn_seeds",
+      "value": 5
+    },
+    {
+      "item": "corn_delight:corn_soup"
+    },
+    {
+      "item": "corn_delight:cornbread"
+    },
+    {
+      "item": "corn_delight:cornbread_batter"
+    },
+    {
+      "item": "corn_delight:cornbread_stuffing"
+    },
+    {
+      "item": "corn_delight:creamed_corn"
+    },
+    {
+      "item": "corn_delight:grilled_corn"
+    },
+    {
+      "item": "corn_delight:popcorn"
+    },
+    {
+      "item": "corn_delight:tortilla"
+    },
+    {
+      "item": "corn_delight:tortilla_chip"
+    },
+    {
+      "item": "corn_delight:tortilla_raw"
+    },
+    {
+      "item": "crabbersdelight:kelp_shake",
+      "value": 5
+    },
+    {
+      "item": "culturaldelights:avocado"
+    },
+    {
+      "item": "culturaldelights:avocado_pit",
+      "value": 5
+    },
+    {
+      "item": "culturaldelights:avocado_toast"
+    },
+    {
+      "item": "culturaldelights:corn_cob"
+    },
+    {
+      "item": "culturaldelights:corn_cob"
+    },
+    {
+      "item": "culturaldelights:corn_dough"
+    },
+    {
+      "item": "culturaldelights:corn_kernels",
+      "value": 5
+    },
+    {
+      "item": "culturaldelights:creamed_corn"
+    },
+    {
+      "item": "culturaldelights:cucumber"
+    },
+    {
+      "item": "culturaldelights:cucumber_seeds",
+      "value": 5
+    },
+    {
+      "item": "culturaldelights:cut_avocado"
+    },
+    {
+      "item": "culturaldelights:cut_cucumber"
+    },
+    {
+      "item": "culturaldelights:cut_eggplant"
+    },
+    {
+      "item": "culturaldelights:cut_pickle"
+    },
+    {
+      "item": "culturaldelights:eggplant"
+    },
+    {
+      "item": "culturaldelights:eggplant_burger"
+    },
+    {
+      "item": "culturaldelights:eggplant_seeds",
+      "value": 5
+    },
+    {
+      "item": "culturaldelights:elote"
+    },
+    {
+      "item": "culturaldelights:fried_eggplant_pasta"
+    },
+    {
+      "item": "culturaldelights:hearty_salad"
+    },
+    {
+      "item": "culturaldelights:midori_roll"
+    },
+    {
+      "item": "culturaldelights:midori_roll_slice"
+    },
+    {
+      "item": "culturaldelights:pickle"
+    },
+    {
+      "item": "culturaldelights:popcorn"
+    },
+    {
+      "item": "culturaldelights:smoked_corn"
+    },
+    {
+      "item": "culturaldelights:smoked_cut_eggplant"
+    },
+    {
+      "item": "culturaldelights:smoked_eggplant"
+    },
+    {
+      "item": "culturaldelights:smoked_tomato"
+    },
+    {
+      "item": "culturaldelights:smoked_white_eggplant"
+    },
+    {
+      "item": "culturaldelights:tortilla"
+    },
+    {
+      "item": "culturaldelights:tortilla_chips"
+    },
+    {
+      "item": "culturaldelights:white_eggplant"
+    },
+    {
+      "item": "delightful:acorn"
+    },
+    {
+      "item": "delightful:blueberry_pie_slice"
+    },
+    {
+      "item": "delightful:cactus_flesh"
+    },
+    {
+      "item": "delightful:cactus_steak"
+    },
+    {
+      "item": "delightful:cantaloupe_slice"
+    },
+    {
+      "item": "delightful:chopped_clover"
+    },
+    {
+      "item": "delightful:coconut_curry"
+    },
+    {
+      "item": "delightful:crimson_berry_pie_slice"
+    },
+    {
+      "item": "delightful:field_salad"
+    },
+    {
+      "item": "delightful:green_apple_pie_slice"
+    },
+    {
+      "item": "delightful:green_tea_leaf"
+    },
+    {
+      "item": "delightful:honey_glazed_walnut"
+    },
+    {
+      "item": "delightful:nightshade_berry_pie_slice"
+    },
+    {
+      "item": "delightful:nut_butter_bottle"
+    },
+    {
+      "item": "delightful:pumpkin_pie_slice"
+    },
+    {
+      "item": "delightful:salmonberries"
+    },
+    {
+      "item": "delightful:salmonberry_pie",
+      "value": 60
+    },
+    {
+      "item": "delightful:source_berry_pie_slice"
+    },
+    {
+      "item": "endersdelight:chorus_pie",
+      "value": 60
+    },
+    {
+      "item": "endersdelight:chorus_pie_slice"
+    },
+    {
+      "item": "endersdelight:chorus_stew"
+    },
+    {
+      "item": "endersdelight:chorus_stew_wood"
+    },
+    {
+      "item": "endersdelight:pearl_pasta"
+    },
+    {
+      "item": "endersdelight:pearl_pasta_wood"
+    },
+    {
+      "item": "endersdelight:strange_eclair"
+    },
+    {
+      "item": "endersdelight:stuffed_shulker_bowl"
+    },
+    {
+      "item": "endersdelight:twisted_cereal"
+    },
+    {
+      "item": "endersdelight:twisted_cereal_wood"
+    },
+    {
+      "item": "ends_delight:assorted_salad"
+    },
+    {
+      "item": "ends_delight:chorus_cookie"
+    },
+    {
+      "item": "ends_delight:chorus_flower_pie"
+    },
+    {
+      "item": "ends_delight:chorus_fruit_grain"
+    },
+    {
+      "item": "ends_delight:chorus_fruit_pie",
+      "value": 60
+    },
+    {
+      "item": "ends_delight:chorus_fruit_pie_slice"
+    },
+    {
+      "item": "ends_delight:chorus_fruit_popsicle"
+    },
+    {
+      "item": "ends_delight:chorus_succulent"
+    },
+    {
+      "item": "ends_delight:dragon_breath_and_chorus_soup"
+    },
+    {
+      "item": "ends_delight:dried_chorus_flower",
+      "value": 5
+    },
+    {
+      "item": "ends_delight:end_mixed_salad"
+    },
+    {
+      "item": "ends_delight:ender_sauce"
+    },
+    {
+      "item": "ends_delight:stuffed_rice_cake"
+    },
+    {
+      "item": "farmersdelight:apple_pie",
+      "value": 60
+    },
+    {
+      "item": "farmersdelight:apple_pie_slice"
+    },
+    {
+      "item": "farmersdelight:cabbage"
+    },
+    {
+      "item": "farmersdelight:cabbage_leaf"
+    },
+    {
+      "item": "farmersdelight:cabbage_seeds",
+      "value": 5
+    },
+    {
+      "item": "farmersdelight:chocolate_pie",
+      "value": 60
+    },
+    {
+      "item": "farmersdelight:chocolate_pie_slice"
+    },
+    {
+      "item": "farmersdelight:cooked_rice"
+    },
+    {
+      "item": "farmersdelight:fried_rice"
+    },
+    {
+      "item": "farmersdelight:fruit_salad"
+    },
+    {
+      "item": "farmersdelight:glow_berry_custard"
+    },
+    {
+      "item": "farmersdelight:honey_cookie"
+    },
+    {
+      "item": "farmersdelight:kelp_roll"
+    },
+    {
+      "item": "farmersdelight:kelp_roll_slice"
+    },
+    {
+      "item": "farmersdelight:melon_popsicle"
+    },
+    {
+      "item": "farmersdelight:mixed_salad"
+    },
+    {
+      "item": "farmersdelight:mushroom_rice"
+    },
+    {
+      "item": "farmersdelight:nether_salad"
+    },
+    {
+      "item": "farmersdelight:onion"
+    },
+    {
+      "item": "farmersdelight:pie_crust"
+    },
+    {
+      "item": "farmersdelight:pumpkin_slice"
+    },
+    {
+      "item": "farmersdelight:pumpkin_soup"
+    },
+    {
+      "item": "farmersdelight:raw_pasta"
+    },
+    {
+      "item": "farmersdelight:roast_chicken"
+    },
+    {
+      "item": "farmersdelight:roast_chicken"
+    },
+    {
+      "item": "farmersdelight:stuffed_pumpkin"
+    },
+    {
+      "item": "farmersdelight:sweet_berry_cheesecake",
+      "value": 60
+    },
+    {
+      "item": "farmersdelight:sweet_berry_cheesecake_slice"
+    },
+    {
+      "item": "farmersdelight:sweet_berry_cookie"
+    },
+    {
+      "item": "farmersdelight:tomato"
+    },
+    {
+      "item": "farmersdelight:tomato_sauce"
+    },
+    {
+      "item": "farmersdelight:tomato_seeds",
+      "value": 5
+    },
+    {
+      "item": "farmersdelight:vegetable_noodles"
+    },
+    {
+      "item": "farmersdelight:vegetable_noodles"
+    },
+    {
+      "item": "farmersdelight:vegetable_soup"
+    },
+    {
+      "item": "farmersdelight:wheat_dough"
+    },
+    {
+      "item": "farmersrespite:black_tea_leaves",
+      "value": 5
+    },
+    {
+      "item": "farmersrespite:coffee_berries"
+    },
+    {
+      "item": "farmersrespite:coffee_cake",
+      "value": 147
+    },
+    {
+      "item": "farmersrespite:coffee_cake_slice"
+    },
+    {
+      "item": "farmersrespite:green_tea_cookie"
+    },
+    {
+      "item": "farmersrespite:green_tea_leaves",
+      "value": 5
+    },
+    {
+      "item": "farmersrespite:nether_wart_sourdough"
+    },
+    {
+      "item": "farmersrespite:rose_hip_pie",
+      "value": 60
+    },
+    {
+      "item": "farmersrespite:rose_hip_pie_slice"
+    },
+    {
+      "item": "farmersrespite:rose_hips",
+      "value": 5
+    },
+    {
+      "item": "farmersrespite:tea_curry"
+    },
+    {
+      "item": "farmersrespite:tea_seeds",
+      "value": 5
+    },
+    {
+      "item": "farmersrespite:yellow_tea_leaves",
+      "value": 5
+    },
+    {
+      "item": "festive_delight:cinnamon_powder",
+      "value": 10
+    },
+    {
+      "item": "festive_delight:gingerbread"
+    },
+    {
+      "item": "festive_delight:gingerbread_cookie_block"
+    },
+    {
+      "item": "festive_delight:gingerbread_cookie_creeper"
+    },
+    {
+      "item": "festive_delight:gingerbread_cookie_dough_block",
+      "value": 10
+    },
+    {
+      "item": "festive_delight:gingerbread_cookie_dough_creeper",
+      "value": 10
+    },
+    {
+      "item": "festive_delight:gingerbread_cookie_dough_star",
+      "value": 10
+    },
+    {
+      "item": "festive_delight:gingerbread_cookie_star"
+    },
+    {
+      "item": "festive_delight:gingerbread_dough",
+      "value": 10
+    },
+    {
+      "item": "festive_delight:gingerbread_man"
+    },
+    {
+      "item": "festive_delight:gingerbread_man_base"
+    },
+    {
+      "item": "festive_delight:gingerbread_man_dough",
+      "value": 10
+    },
+    {
+      "item": "fossil:fern_seed",
+      "value": 5
+    },
+    {
+      "item": "honeyexpansion:honey_berries"
+    },
+    {
+      "item": "honeyexpansion:honey_cookie_sausage"
+    },
+    {
+      "item": "honeyexpansion:honey_pancake"
+    },
+    {
+      "item": "honeyexpansion:pancake"
+    },
+    {
+      "item": "honeyexpansion:slice_of_honey_cake"
+    },
+    {
+      "item": "italian_delight:berrieddelight"
+    },
+    {
+      "item": "italian_delight:dantes_special_slice"
+    },
+    {
+      "item": "italian_delight:grape_bunch"
+    },
+    {
+      "item": "italian_delight:grape_seeds",
+      "value": 5
+    },
+    {
+      "item": "italian_delight:mozzarella"
+    },
+    {
+      "item": "italian_delight:mozzarella_panini"
+    },
+    {
+      "item": "italian_delight:mozzarella_salad"
+    },
+    {
+      "item": "italian_delight:mushroom_pizza_slice"
+    },
+    {
+      "item": "italian_delight:mushroom_risotto"
+    },
+    {
+      "item": "italian_delight:pandoro",
+      "value": 168
+    },
+    {
+      "item": "italian_delight:pandoro_dough",
+      "value": 56
+    },
+    {
+      "item": "italian_delight:pandoro_slice"
+    },
+    {
+      "item": "italian_delight:panettone",
+      "value": 168
+    },
+    {
+      "item": "italian_delight:panettone_slice"
+    },
+    {
+      "item": "italian_delight:pasta_al_pesto"
+    },
+    {
+      "item": "italian_delight:pizza_diavola_slice"
+    },
+    {
+      "item": "italian_delight:pizza_margherita_slice"
+    },
+    {
+      "item": "italian_delight:risotto_al_sugo"
+    },
+    {
+      "item": "italian_delight:tiramisu"
+    },
+    {
+      "item": "italian_delight:tomato_pasta"
+    },
+    {
+      "item": "largemeals:potato_soup"
+    },
+    {
+      "item": "largemeals:red_soup"
+    },
+    {
+      "item": "largemeals:sweet_berry_custard"
+    },
+    {
+      "item": "miners_delight:baked_cave_carrot"
+    },
+    {
+      "item": "miners_delight:beetroot_soup_cup"
+    },
+    {
+      "item": "miners_delight:cave_carrot"
+    },
+    {
+      "item": "miners_delight:cave_soup"
+    },
+    {
+      "item": "miners_delight:mushroom_stew_cup"
+    },
+    {
+      "item": "miners_delight:pasta_with_veggieballs"
+    },
+    {
+      "item": "miners_delight:vegetable_soup_cup"
+    },
+    {
+      "item": "nethersdelight:propelpearl"
+    },
+    {
+      "item": "oceansdelight:braised_sea_pickle"
+    },
+    {
+      "item": "pineapple_delight:pineapple"
+    },
+    {
+      "item": "pineapple_delight:pineapple_cake_slice"
+    },
+    {
+      "item": "pineapple_delight:pineapple_fried_rice"
+    },
+    {
+      "item": "pineapple_delight:pineapple_pie_side"
+    },
+    {
+      "item": "pineapple_delight:pineapple_side"
+    },
+    {
+      "item": "seeddelight:acorn",
+      "value": 5
+    },
+    {
+      "item": "seeddelight:acorn_bread"
+    },
+    {
+      "item": "seeddelight:acorn_kernel"
+    },
+    {
+      "item": "seeddelight:acorn_tofu"
+    },
+    {
+      "item": "seeddelight:cherry"
+    },
+    {
+      "item": "seeddelight:cherry_jam_sandwich"
+    },
+    {
+      "item": "seeddelight:dried_watermelon_seed"
+    },
+    {
+      "item": "seeddelight:dried_watermelon_seed"
+    },
+    {
+      "item": "seeddelight:fried_sunflower_seed"
+    },
+    {
+      "item": "seeddelight:milk_cherry_mouss"
+    },
+    {
+      "item": "seeddelight:pine_nut_kernel"
+    },
+    {
+      "item": "seeddelight:pinecone",
+      "value": 5
+    },
+    {
+      "item": "seeddelight:pinenut_cake"
+    },
+    {
+      "item": "seeddelight:pinenut_gruel"
+    },
+    {
+      "item": "seeddelight:raw_acorn_noodle"
+    },
+    {
+      "item": "seeddelight:rose_cookie"
+    },
+    {
+      "item": "seeddelight:rosehip"
+    },
+    {
+      "item": "seeddelight:rosehip_cake"
+    },
+    {
+      "item": "seeddelight:rosehip_jam_sandwich"
+    },
+    {
+      "item": "seeddelight:rosehip_pie",
+      "value": 20
+    },
+    {
+      "item": "seeddelight:rosehip_pie_slice"
+    },
+    {
+      "item": "seeddelight:seed_rosehip_pie"
+    },
+    {
+      "item": "seeddelight:seed_tart"
+    },
+    {
+      "item": "seeddelight:stir_fried_cabbage_with_acorn"
+    },
+    {
+      "item": "seeddelight:sunflower_seed",
+      "value": 5
+    },
+    {
+      "item": "seeddelight:sunflower_seed_crisp"
+    },
+    {
+      "item": "seeddelight:sunflower_seed_toast"
+    }
+  ],
+  "entities": []
+}
