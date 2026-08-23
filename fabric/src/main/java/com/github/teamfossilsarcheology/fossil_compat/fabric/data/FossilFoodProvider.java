@@ -1,4 +1,4 @@
-package com.github.teamfossilsarcheology.fossil_compat.forge;
+package com.github.teamfossilsarcheology.fossil_compat.fabric.data;
 
 import com.github.teamfossilsarcheology.fossil.block.ModBlocks;
 import com.github.teamfossilsarcheology.fossil.block.PrehistoricPlantInfo;

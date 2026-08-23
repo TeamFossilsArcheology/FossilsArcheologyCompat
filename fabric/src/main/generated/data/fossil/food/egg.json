@@ -1,0 +1,47 @@
+{
+  "blocks": [],
+  "items": [
+    {
+      "item": "betteranimalsplus:fried_egg"
+    },
+    {
+      "item": "betteranimalsplus:golden_goose_egg",
+      "value": 18
+    },
+    {
+      "item": "betteranimalsplus:goose_egg",
+      "value": 12
+    },
+    {
+      "item": "betteranimalsplus:pheasant_egg",
+      "value": 7
+    },
+    {
+      "item": "betteranimalsplus:turkey_egg",
+      "value": 7
+    },
+    {
+      "item": "culturaldelights:egg_roll"
+    },
+    {
+      "item": "ends_delight:fried_dragon_egg"
+    },
+    {
+      "item": "ends_delight:liquid_dragon_egg"
+    },
+    {
+      "item": "ends_delight:steamed_dragon_egg"
+    },
+    {
+      "item": "farmersdelight:egg_sandwich"
+    },
+    {
+      "item": "farmersdelight:fried_egg"
+    },
+    {
+      "item": "minecraft:egg",
+      "value": 7
+    }
+  ],
+  "entities": []
+}

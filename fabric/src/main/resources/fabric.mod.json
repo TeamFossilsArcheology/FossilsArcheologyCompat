@@ -19,6 +19,9 @@
     ],
     "client": [
       "com.github.teamfossilsarcheology.fossil_compat.fabric.client.FossilCompatFabricClient"
+    ],
+    "fabric-datagen": [
+      "com.github.teamfossilsarcheology.fossil_compat.fabric.data.FossilDataGenerator"
     ]
   },
   "depends": {

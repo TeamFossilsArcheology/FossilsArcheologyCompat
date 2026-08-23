@@ -25,6 +25,7 @@ configurations {
 }
 
 dependencies {
+    mappings loom.officialMojangMappings()
     forge "net.minecraftforge:forge:$minecraft_version-$forge_version"
     modApi "dev.architectury:architectury-forge:$architectury_version"
 

@@ -17,9 +17,9 @@ public class PineappleDelightCompat {
         plant.item(ItemList.PINEAPPLE_FRIED_RICE.get());
         plant.item(ItemList.PINEAPPLE_CAKE_SLICE.get());
 
-        plant.block(BlockList.PINEAPPLE_PIE.get(), 4 * FoodType.PLANT.multiplier());
-        plant.block(BlockList.PINEAPPLE_CAKE.get(), 3 * 4 * FoodType.PLANT.multiplier());
-        plant.block(BlockList.PINEAPPLE_WILD_CROP.get(), FoodType.PLANT.multiplier());
-        plant.block(BlockList.PINEAPPLE_CROP.get(), FoodType.PLANT.multiplier());
+        plant.block(BlockList.PINEAPPLE_PIE.get(), 4);
+        plant.block(BlockList.PINEAPPLE_CAKE.get(), 3 * 4);
+        plant.block(BlockList.PINEAPPLE_WILD_CROP.get(), 1);
+        plant.block(BlockList.PINEAPPLE_CROP.get(), 1);
     }
 }

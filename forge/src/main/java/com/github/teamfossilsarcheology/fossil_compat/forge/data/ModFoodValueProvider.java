@@ -1,6 +1,8 @@
 package com.github.teamfossilsarcheology.fossil_compat.forge.data;
 
 import com.github.teamfossilsarcheology.fossil_compat.FoodValueProvider;
+import com.github.teamfossilsarcheology.fossil_compat.OtherCompat;
+import com.github.teamfossilsarcheology.fossil_compat.VanillaFoodProvider;
 import com.github.teamfossilsarcheology.fossil_compat.forge.compat.*;
 import net.minecraft.data.DataGenerator;
 import org.jetbrains.annotations.NotNull;
@@ -14,7 +16,7 @@ public class ModFoodValueProvider extends FoodValueProvider {
     @Override
     protected void buildFoodValues() {
         FossilFoodProvider.bootstrap(this);
-
+        VanillaFoodProvider.bootstrap(this);
 
         FarmersDelightCompat.bootstrap(this);
         AlexDelightCompat.bootstrap(this);

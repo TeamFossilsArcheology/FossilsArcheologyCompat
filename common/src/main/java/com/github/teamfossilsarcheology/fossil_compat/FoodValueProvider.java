@@ -112,13 +112,21 @@ public abstract class FoodValueProvider implements DataProvider {
             item(item, -1);
         }
 
+        public void item(ResourceLocation key) {
+            item(key, -1);
+        }
+
         /**
          * Adds the given item to the list with the given value
          */
         public void item(Item item, int value) {
             if (item != Items.AIR) {
-                items.add(new Entry(Registry.ITEM.getKey(item.asItem()), value, ITEM));
+                item(Registry.ITEM.getKey(item.asItem()), value);
             }
+        }
+
+        public void item(ResourceLocation key, int value) {
+            items.add(new Entry(key, value, ITEM));
         }
 
         /**
@@ -126,8 +134,11 @@ public abstract class FoodValueProvider implements DataProvider {
          */
         public void block(Block block, int value) {
             if (block != Blocks.AIR) {
-                blocks.add(new Entry(Registry.BLOCK.getKey(block), value * type.multiplier(), BLOCK));
+                block(Registry.BLOCK.getKey(block), value * type.multiplier());
             }
+        }
+        public void block(ResourceLocation key, int value) {
+            blocks.add(new Entry(key, value * type.multiplier(), BLOCK));
         }
 
         public void entityTag(TagKey<EntityType<?>> tag) {

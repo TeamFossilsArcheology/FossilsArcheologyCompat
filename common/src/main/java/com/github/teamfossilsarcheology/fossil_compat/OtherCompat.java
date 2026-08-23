@@ -1,13 +1,10 @@
-package com.github.teamfossilsarcheology.fossil_compat.forge.compat;
+package com.github.teamfossilsarcheology.fossil_compat;
 
-import com.github.teamfossilsarcheology.fossil_compat.FoodType;
-import com.github.teamfossilsarcheology.fossil_compat.FoodValueProvider;
 import net.minecraft.core.Registry;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.TagKey;
 
 public class OtherCompat {
-
 
     public static void bootstrap(FoodValueProvider provider) {
         var egg = provider.type(FoodType.EGG);

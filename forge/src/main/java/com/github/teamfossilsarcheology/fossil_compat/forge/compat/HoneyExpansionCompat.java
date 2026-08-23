@@ -16,7 +16,7 @@ public class HoneyExpansionCompat {
         plant.item(ItemInit.HONEY_COOKIE_SAUSAGE.get());
         plant.item(ItemInit.PANCAKE.get());
         plant.item(ItemInit.HONEY_PANCAKE.get());
-        plant.block(BlockInit.HONEY_CAKE.get(), 7 * FoodType.PLANT.multiplier() * 2);//7 slices by 2 food points
+        plant.block(BlockInit.HONEY_CAKE.get(), 7 * 2);//7 slices by 2 food points
         //6/6 added
     }
 }

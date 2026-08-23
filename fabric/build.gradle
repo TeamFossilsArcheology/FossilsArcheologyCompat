@@ -1,3 +1,12 @@
+import net.fabricmc.loom.api.mappings.layered.MappingContext
+import net.fabricmc.loom.api.mappings.layered.MappingLayer
+import net.fabricmc.loom.api.mappings.layered.MappingsNamespace
+import net.fabricmc.loom.api.mappings.layered.spec.MappingsSpec
+import net.fabricmc.loom.configuration.providers.mappings.intermediary.IntermediaryMappingLayer
+import net.fabricmc.mappingio.MappingVisitor
+import net.fabricmc.mappingio.tree.MappingTreeView
+import net.fabricmc.mappingio.tree.MemoryMappingTree
+
 plugins {
     id 'com.github.johnrengelman.shadow'
 }
@@ -30,14 +39,43 @@ configurations {
 }
 
 dependencies {
+    mappings(loom.layered {
+        officialMojangMappings()
+        addLayer(new FixGeckoLibSpec())
+    })
     modImplementation "net.fabricmc:fabric-loader:$fabric_loader_version"
 
     modApi "net.fabricmc.fabric-api:fabric-api:$fabric_api_version+$minecraft_version"
+    modApi "dev.architectury:architectury-fabric:$architectury_version"
+    modRuntimeOnly("software.bernie.geckolib:geckolib-fabric-1.18:3.0.80") { exclude group: 'net.fabricmc', module: 'fabric-loader' }
+    modRuntimeOnly("com.github.glitchfiend:TerraBlender-fabric:$minecraft_version-$terra_blender_version") { exclude group: 'net.fabricmc', module: 'fabric-loader' }
+    modRuntimeOnly("dev.onyxstudios.cardinal-components-api:cardinal-components-base:4.2.0") { exclude group: 'net.fabricmc', module: 'fabric-loader' }
+    modRuntimeOnly("dev.onyxstudios.cardinal-components-api:cardinal-components-entity:4.2.0") { exclude group: 'net.fabricmc', module: 'fabric-loader' }
 
     common(project(path: ':common', configuration: 'namedElements')) { transitive false }
     shadowBundle project(path: ':common', configuration: 'transformProductionFabric')
 
+    modImplementation("maven.modrinth:farmers-delight-fabric:$farmers_delight_version_fabric")
+
+    modImplementation("maven.modrinth:casualness-delight:1.18.2-0.4")
+    modImplementation("curse.maven:coffee-delight-835597:4626094") //1.18.2 1.3
+    modImplementation("curse.maven:cultural-delights-fabric-807107:4329072") //1.18.2 0.14.7
+    modImplementation("maven.modrinth:ends-delight:1.18.2-beta-1.0")
+    modImplementation("curse.maven:expanded-delight-620770:4362782") //1.18.2 0.1.9.2
+    modCompileOnly("curse.maven:farmers-respite-fabric-811003:4344002") //1.18.2 1.0.0
+    modImplementation("curse.maven:nethers-delight-fabric-701831:4291741") //1.18.2 2.0.0
+    modImplementation("maven.modrinth:oceans-delight:1.0.0")
+    modCompileOnly("maven.modrinth:pineapple-delight:1.1.2-1.18.2-fabric")
+
     modImplementation("curse.maven:better-animals-plus-303557:4318510") //1.18.2 11.0.10
+    modImplementation("curse.maven:naturalist-627986:3930805") //1.18.2-1.1.1-beta
+    modImplementation("curse.maven:fossil-223908:8217369") //1.18.2-9.3.4.0
+    modRuntimeOnly("maven.modrinth:midnightlib:0.4.4")
+    modRuntimeOnly("curse.maven:morehitboxes-1115989:6992952") //1.18.2-9.3.4.0
+    modRuntimeOnly("maven.modrinth:Wd844r7Q:1.18.2-02")//Structurized Reborn
+    modRuntimeOnly("teamreborn:energy:2.3.0"){ exclude group: 'net.fabricmc', module: 'fabric-loader' }
+    modImplementation "maven.modrinth:9s6osm5g:BLMp2TRt"
+   // modRuntimeOnly("com.github.darkpred.morehitboxes:morehitboxes-fabric-$minecraft_version:1.9.2")
 }
 
 shadowJar {
@@ -48,4 +86,49 @@ shadowJar {
 remapJar {
     input.set shadowJar.archiveFile
     archiveAppendix = "fabric-$minecraft_version"
+}
+
+
+class FixGeckoLibSpec implements MappingsSpec<FixGeckoLibLayer> {
+
+    @Override
+    FixGeckoLibLayer createLayer(MappingContext context) {
+        return new FixGeckoLibLayer()
+    }
+
+    @Override
+    int hashCode() {
+        return "FixGeckoLibLayer".hashCode()
+    }
+}
+
+class FixGeckoLibLayer implements MappingLayer {
+    private final Map METHOD_NAME_MAP = Map.of("getTextureLocation", "_getTextureLocation");
+
+    @Override
+    void visit(MappingVisitor mappingVisitor) throws IOException {
+        MemoryMappingTree memoryMappingTree = (MemoryMappingTree) mappingVisitor
+        var getClasses = MappingTreeView.getDeclaredMethod("getClasses")
+        var getMethods = MappingTreeView.ClassMappingView.getDeclaredMethod("getMethods")
+        var getName = MappingTreeView.ElementMappingView.getDeclaredMethod("getName", String.class)
+        var entryClass = Class.forName("net.fabricmc.mappingio.tree.MemoryMappingTree\$Entry")
+        var srcNameField = entryClass.getDeclaredField("srcName")
+        srcNameField.setAccessible(true)
+        for (final def classEntry in getClasses.invoke(memoryMappingTree)) {
+            for (final def methodEntry in getMethods.invoke(classEntry)) {
+                var it = METHOD_NAME_MAP.get(getName.invoke(methodEntry, MappingsNamespace.NAMED.toString()))
+                if (it != null) srcNameField.set(methodEntry, it)
+            }
+        }
+    }
+
+    @Override
+    MappingsNamespace getSourceNamespace() {
+        return MappingsNamespace.NAMED;
+    }
+
+    @Override
+    List<Class<? extends MappingLayer>> dependsOn() {
+        return List.of(IntermediaryMappingLayer.class)
+    }
 }

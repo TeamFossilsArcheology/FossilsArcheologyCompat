@@ -31,15 +31,15 @@ public class CasualnessDelightCompat {
         meat.item(ItemRegistry.DonkeyBurger.get());
         plant.item(ItemRegistry.RawPotatoBoboChicken.get(), 4 * FoodType.PLANT.multiplier()); //This is just a potato+a stick
         plant.item(ItemRegistry.RawCabbageBoboChicken.get(), 4 * FoodType.PLANT.multiplier()); //This is just a cabbage+a stick
-        meat.item(ItemRegistry.RawChickenBoboChicken.get(), 4 * FoodType.PLANT.multiplier());
+        meat.item(ItemRegistry.RawChickenBoboChicken.get(), 4 * FoodType.MEAT.multiplier());
         plant.item(ItemRegistry.PotatoBoboChicken.get());
         plant.item(ItemRegistry.CabbageBoboChicken.get());
-        meat.item(ItemRegistry.RawChickenBoboChicken.get(), 4 * FoodType.PLANT.multiplier());
+        meat.item(ItemRegistry.RawChickenBoboChicken.get(), 4 * FoodType.MEAT.multiplier());
         plant.item(ItemRegistry.PotatoSlice.get(), 4 * FoodType.PLANT.multiplier());
         plant.item(ItemRegistry.PotatoChip.get());
-        meat.item(ItemRegistry.RawSpringRoll.get(), 4 * FoodType.PLANT.multiplier());
+        meat.item(ItemRegistry.RawSpringRoll.get(), 4 * FoodType.MEAT.multiplier());
         meat.item(ItemRegistry.SpringRoll.get());
-        meat.item(ItemRegistry.SpringRollMedley.get(), 6 * 6 * FoodType.PLANT.multiplier()); //Made of 6 spring rolls
+        meat.item(ItemRegistry.SpringRollMedley.get(), 6 * 6 * FoodType.MEAT.multiplier()); //Made of 6 spring rolls
         meat.item(ItemRegistry.FriedChickenChip.get());
         fish.item(ItemRegistry.FriedFish.get());
         meat.item(ItemRegistry.Tonkatsu.get());
