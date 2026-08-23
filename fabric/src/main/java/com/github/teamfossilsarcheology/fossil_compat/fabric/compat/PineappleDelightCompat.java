@@ -16,8 +16,8 @@ public class PineappleDelightCompat {
         item(plant, "pineapple_fried_rice");
         item(plant, "pineapple_cake_slice");
 
-        block(plant, "pineapple_pie", 4);
-        block(plant, "pineapple_cake", 3 * 4);
+        block(plant, "pineapple_pie", 4 * 2);
+        block(plant, "pineapple_cake", 7 * 2);
         block(plant, "pineapple_wild_crop", 1);
         block(plant, "pineapple_crop", 1);
     }

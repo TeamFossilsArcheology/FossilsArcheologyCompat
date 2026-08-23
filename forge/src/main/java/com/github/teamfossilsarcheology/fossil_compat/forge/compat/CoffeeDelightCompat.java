@@ -10,8 +10,8 @@ public class CoffeeDelightCompat {
         var fish = provider.type(FoodType.FISH);
         var meat = provider.type(FoodType.MEAT);
         var plant = provider.type(FoodType.PLANT);
-        plant.item(ItemInit.COFFEE_BERRIES.get(), 5);
-        plant.item(ItemInit.COFFEE_FLOUR.get(), 15);
+        plant.item(ItemInit.COFFEE_BERRIES.get(), 1);
+        plant.item(ItemInit.COFFEE_FLOUR.get(), 1);
         plant.item(ItemInit.COFFEE_BEANS.get());
         plant.item(ItemInit.COFFEE_BEANS_COOKED.get());
         plant.item(ItemInit.COFFEE_PIE_SIDE.get());

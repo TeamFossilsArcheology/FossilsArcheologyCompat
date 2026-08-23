@@ -12,12 +12,12 @@ public class FestiveDelightCompat {
         var meat = provider.type(FoodType.MEAT);
         var plant = provider.type(FoodType.PLANT);
         meat.item(FestiveDelightModItems.FESTIVE_CHIKEN.get());
-        plant.item(FestiveDelightModItems.CINNAMON_POWDER.get(), 10);
-        plant.item(FestiveDelightModItems.GINGERBREAD_DOUGH.get(), 10);
-        plant.item(FestiveDelightModItems.GINGERBREAD_MAN_DOUGH.get(), 10);
-        plant.item(FestiveDelightModItems.GINGERBREAD_COOKIE_DOUGH_CREEPER.get(), 10);
-        plant.item(FestiveDelightModItems.GINGERBREAD_COOKIE_DOUGH_STAR.get(), 10);
-        plant.item(FestiveDelightModItems.GINGERBREAD_COOKIE_DOUGH_BLOCK.get(), 10);
+        plant.item(FestiveDelightModItems.CINNAMON_POWDER.get(), 2);
+        plant.item(FestiveDelightModItems.GINGERBREAD_DOUGH.get(), 2);
+        plant.item(FestiveDelightModItems.GINGERBREAD_MAN_DOUGH.get(), 2);
+        plant.item(FestiveDelightModItems.GINGERBREAD_COOKIE_DOUGH_CREEPER.get(), 2);
+        plant.item(FestiveDelightModItems.GINGERBREAD_COOKIE_DOUGH_STAR.get(), 2);
+        plant.item(FestiveDelightModItems.GINGERBREAD_COOKIE_DOUGH_BLOCK.get(), 2);
         plant.item(FestiveDelightModItems.GINGERBREAD_COOKIE_BLOCK.get());
         plant.item(FestiveDelightModItems.GINGERBREAD_COOKIE_CREEPER.get());
         plant.item(FestiveDelightModItems.GINGERBREAD_COOKIE_STAR.get());
@@ -25,7 +25,7 @@ public class FestiveDelightCompat {
         plant.item(FestiveDelightModItems.GINGERBREAD_MAN_BASE.get());
         plant.item(FestiveDelightModItems.GINGERBREAD.get());
         //plant.item(FestiveDelightModItems.SUGAR_CANE.get()); Not suitable for dinos
-        plant.block(FestiveDelightModBlocks.CINNAMON_BUSH.get(), 15);
+        plant.block(FestiveDelightModBlocks.CINNAMON_BUSH.get(), 1);
         //14/15 added, 1 excluded
     }
 }

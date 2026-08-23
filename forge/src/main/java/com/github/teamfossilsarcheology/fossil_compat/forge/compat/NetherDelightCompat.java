@@ -16,8 +16,8 @@ public class NetherDelightCompat {
         meat.item(NDItems.HOGLIN_EAR.get());
         meat.item(NDItems.HOGLIN_LOIN.get());
         meat.item(NDItems.HOGLIN_SIRLOIN.get());
-        plant.block(NDBlocks.PROPELPLANT_CANE.get(), 15);
-        plant.block(NDBlocks.PROPELPLANT_STEM.get(), 15);
+        plant.block(NDBlocks.PROPELPLANT_CANE.get(), 1);
+        plant.block(NDBlocks.PROPELPLANT_STEM.get(), 1);
         //meat.item(NDItems.MAGMA_GELATIN.get()); Excluded because it doesn't make sense for it to be edible by dinos
         meat.item(NDItems.PLATE_OF_STUFFED_HOGLIN_HAM.get());
         meat.item(NDItems.PLATE_OF_STUFFED_HOGLIN_ROAST.get());

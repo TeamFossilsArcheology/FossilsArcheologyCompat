@@ -13,9 +13,9 @@ public class CulturalDelightCompat {
         var fish = provider.type(FoodType.FISH);
         var meat = provider.type(FoodType.MEAT);
         var plant = provider.type(FoodType.PLANT);
-        plant.item(ModItems.CUCUMBER_SEEDS.get(), 5);
-        plant.item(ModItems.CORN_KERNELS.get(), 5);
-        plant.item(ModItems.EGGPLANT_SEEDS.get(), 5);
+        plant.item(ModItems.CUCUMBER_SEEDS.get(), 1);
+        plant.item(ModItems.CORN_KERNELS.get(), 1);
+        plant.item(ModItems.EGGPLANT_SEEDS.get(), 1);
         plant.item(ModItems.AVOCADO.get());
         plant.item(ModItems.CUT_AVOCADO.get());
         plant.item(ModItems.CUCUMBER.get());
@@ -60,10 +60,9 @@ public class CulturalDelightCompat {
         fish.item(ModItems.TROPICAL_ROLL.get());
         fish.item(ModItems.RICE_BALL.get()); //This has fish in it so I count it as fish
         fish.item(ModItems.CALAMARI_ROLL.get());
-        plant.block(ModBlocks.AVOCADO_LEAVES.get(), 20);
-        plant.block(ModBlocks.AVOCADO_SAPLING.get(), 15);
+        plant.block(ModBlocks.AVOCADO_LEAVES.get(), 4);
+        plant.block(ModBlocks.AVOCADO_SAPLING.get(), 3);
         plant.item(ModItems.AVOCADO_TOAST.get());
-        plant.item(ModItems.ITEMS.getEntries().stream().filter(v -> Objects.equals(v.get().toString(), "avocado_pit")).toList().get(0).get(), 5);
-        //51/51 added! That is a lot of food!
+        //50/50 added! That is a lot of food!
     }
 }

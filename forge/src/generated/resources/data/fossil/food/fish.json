@@ -167,6 +167,24 @@
       "item": "largemeals:pufferfish_broth"
     },
     {
+      "item": "minecraft:cod"
+    },
+    {
+      "item": "minecraft:cooked_cod"
+    },
+    {
+      "item": "minecraft:cooked_salmon"
+    },
+    {
+      "item": "minecraft:pufferfish"
+    },
+    {
+      "item": "minecraft:salmon"
+    },
+    {
+      "item": "minecraft:tropical_fish"
+    },
+    {
       "item": "miners_delight:baked_cod_stew_cup"
     },
     {
@@ -295,6 +313,42 @@
     {
       "entity": "betteranimalsplus:whale",
       "value": 60
+    },
+    {
+      "entity": "minecraft:cod",
+      "value": 5
+    },
+    {
+      "entity": "minecraft:dolphin",
+      "value": 17
+    },
+    {
+      "entity": "minecraft:glow_squid",
+      "value": 20
+    },
+    {
+      "entity": "minecraft:guardian",
+      "value": 65
+    },
+    {
+      "entity": "minecraft:pufferfish",
+      "value": 5
+    },
+    {
+      "entity": "minecraft:salmon",
+      "value": 5
+    },
+    {
+      "entity": "minecraft:squid",
+      "value": 20
+    },
+    {
+      "entity": "minecraft:tropical_fish",
+      "value": 5
+    },
+    {
+      "entity": "minecraft:turtle",
+      "value": 5
     }
   ]
 }

@@ -2,7 +2,10 @@ package com.github.teamfossilsarcheology.fossil_compat.forge.compat;
 
 import com.github.teamfossilsarcheology.fossil_compat.FoodType;
 import com.github.teamfossilsarcheology.fossil_compat.FoodValueProvider;
+import com.va11halla.casualness_delight.item.FoodList;
 import com.va11halla.casualness_delight.registry.ItemRegistry;
+import net.minecraft.world.food.Foods;
+import vectorwing.farmersdelight.common.FoodValues;
 
 public class CasualnessDelightCompat {
     public static void bootstrap(FoodValueProvider provider) {
@@ -29,17 +32,17 @@ public class CasualnessDelightCompat {
         meat.item(ItemRegistry.RawDonkeyMeat.get());
         meat.item(ItemRegistry.CookedDonkeyMeat.get());
         meat.item(ItemRegistry.DonkeyBurger.get());
-        plant.item(ItemRegistry.RawPotatoBoboChicken.get(), 4 * FoodType.PLANT.multiplier()); //This is just a potato+a stick
-        plant.item(ItemRegistry.RawCabbageBoboChicken.get(), 4 * FoodType.PLANT.multiplier()); //This is just a cabbage+a stick
-        meat.item(ItemRegistry.RawChickenBoboChicken.get(), 4 * FoodType.MEAT.multiplier());
+        plant.item(ItemRegistry.RawPotatoBoboChicken.get(), Foods.POTATO.getNutrition()); //This is just a potato+a stick
+        plant.item(ItemRegistry.RawCabbageBoboChicken.get(), FoodValues.CABBAGE.getNutrition()); //This is just a cabbage+a stick
+        meat.item(ItemRegistry.RawChickenBoboChicken.get(), Foods.CHICKEN.getNutrition());
         plant.item(ItemRegistry.PotatoBoboChicken.get());
         plant.item(ItemRegistry.CabbageBoboChicken.get());
-        meat.item(ItemRegistry.RawChickenBoboChicken.get(), 4 * FoodType.MEAT.multiplier());
-        plant.item(ItemRegistry.PotatoSlice.get(), 4 * FoodType.PLANT.multiplier());
+        meat.item(ItemRegistry.ChickenBoboChicken.get());
+        plant.item(ItemRegistry.PotatoSlice.get(), Foods.POTATO.getNutrition());
         plant.item(ItemRegistry.PotatoChip.get());
-        meat.item(ItemRegistry.RawSpringRoll.get(), 4 * FoodType.MEAT.multiplier());
+        meat.item(ItemRegistry.RawSpringRoll.get(), FoodList.SpringRoll.getNutrition());
         meat.item(ItemRegistry.SpringRoll.get());
-        meat.item(ItemRegistry.SpringRollMedley.get(), 6 * 6 * FoodType.MEAT.multiplier()); //Made of 6 spring rolls
+        meat.item(ItemRegistry.SpringRollMedley.get(), 6 * FoodList.SpringRoll.getNutrition()); //Made of 6 spring rolls
         meat.item(ItemRegistry.FriedChickenChip.get());
         fish.item(ItemRegistry.FriedFish.get());
         meat.item(ItemRegistry.Tonkatsu.get());

@@ -37,7 +37,7 @@ public class FossilFoodProvider {
         plant.block(PrehistoricPlantInfo.WELWITSCHIA.getPlantBlock(), 3);
         plant.block(PrehistoricPlantInfo.ZAMITES.getPlantBlock(), 6);
         plant.block(ModBlocks.FERNS.get(), 3);
-        plant.item(ModItems.FERN_SEED.get(), 5);
-        meat.item(ModItems.FAILURESAURUS_FLESH.get(), 15);
+        plant.item(ModItems.FERN_SEED.get(), 1);
+        meat.item(ModItems.FAILURESAURUS_FLESH.get(), 3);
     }
 }

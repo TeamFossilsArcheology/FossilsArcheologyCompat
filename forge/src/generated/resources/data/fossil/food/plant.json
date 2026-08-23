@@ -2,19 +2,23 @@
   "blocks": [
     {
       "block": "culturaldelights:avocado_leaves",
-      "value": 100
+      "value": 20
     },
     {
       "block": "culturaldelights:avocado_sapling",
-      "value": 75
+      "value": 15
+    },
+    {
+      "block": "farmersrespite:coffee_cake",
+      "value": 60
     },
     {
       "block": "farmersrespite:wild_tea_bush",
-      "value": 100
+      "value": 5
     },
     {
       "block": "festive_delight:cinnamon_bush",
-      "value": 75
+      "value": 5
     },
     {
       "block": "fossil:bennettitales_large",
@@ -106,31 +110,119 @@
     },
     {
       "block": "honeyexpansion:honey_cake",
-      "value": 350
+      "value": 70
+    },
+    {
+      "block": "minecraft:beetroots",
+      "value": 10
+    },
+    {
+      "block": "minecraft:brown_mushroom",
+      "value": 15
+    },
+    {
+      "block": "minecraft:cake",
+      "value": 70
+    },
+    {
+      "block": "minecraft:carrots",
+      "value": 75
+    },
+    {
+      "block": "minecraft:chorus_flower",
+      "value": 40
+    },
+    {
+      "block": "minecraft:chorus_plant",
+      "value": 20
+    },
+    {
+      "tag": "minecraft:flowers",
+      "value": 5
+    },
+    {
+      "block": "minecraft:grass",
+      "value": 5
+    },
+    {
+      "block": "minecraft:hay_block",
+      "value": 75
+    },
+    {
+      "block": "minecraft:kelp",
+      "value": 5
+    },
+    {
+      "block": "minecraft:kelp_plant",
+      "value": 5
+    },
+    {
+      "tag": "minecraft:leaves",
+      "value": 20
+    },
+    {
+      "block": "minecraft:lily_pad",
+      "value": 5
+    },
+    {
+      "block": "minecraft:melon",
+      "value": 50
+    },
+    {
+      "block": "minecraft:potatoes",
+      "value": 25
+    },
+    {
+      "block": "minecraft:pumpkin",
+      "value": 40
+    },
+    {
+      "block": "minecraft:red_mushroom",
+      "value": 15
+    },
+    {
+      "tag": "minecraft:saplings",
+      "value": 15
+    },
+    {
+      "block": "minecraft:sugar_cane",
+      "value": 15
+    },
+    {
+      "block": "minecraft:sweet_berry_bush",
+      "value": 30
+    },
+    {
+      "block": "minecraft:tall_grass",
+      "value": 10
+    },
+    {
+      "block": "minecraft:wheat",
+      "value": 15
     },
     {
       "block": "nethersdelight:propelplant_cane",
-      "value": 75
+      "value": 5
     },
     {
       "block": "nethersdelight:propelplant_stem",
-      "value": 75
+      "value": 5
     },
     {
       "block": "pineapple_delight:pineapple_cake",
-      "value": 300
+      "value": 70
     },
     {
       "block": "pineapple_delight:pineapple_crop",
-      "value": 25
+      "value": 15
     },
     {
       "block": "pineapple_delight:pineapple_pie",
-      "value": 100
+      "value": 60
     },
     {
       "block": "pineapple_delight:pineapple_wild_crop",
-      "value": 25
+      "value": 15
     }
   ],
   "items": [
@@ -251,6 +343,18 @@
       "value": 60
     },
     {
+      "tag": "c:foods/berry"
+    },
+    {
+      "tag": "c:foods/bread"
+    },
+    {
+      "tag": "c:foods/fruit"
+    },
+    {
+      "tag": "c:foods/vegetable"
+    },
+    {
       "item": "casualness_delight:bowl_of_sweet_rice"
     },
     {
@@ -270,18 +374,18 @@
     },
     {
       "item": "casualness_delight:potato_slice",
-      "value": 20
+      "value": 5
     },
     {
       "item": "casualness_delight:raw_cabbage_bobo_chicken",
-      "value": 20
+      "value": 10
     },
     {
       "item": "casualness_delight:raw_gluten"
     },
     {
       "item": "casualness_delight:raw_potato_bobo_chicken",
-      "value": 20
+      "value": 5
     },
     {
       "item": "casualness_delight:roast_gluten"
@@ -304,7 +408,7 @@
     },
     {
       "item": "coffee_delight:coffee_flour",
-      "value": 15
+      "value": 5
     },
     {
       "item": "coffee_delight:coffee_pie"
@@ -366,14 +470,10 @@
     },
     {
       "item": "crabbersdelight:kelp_shake",
-      "value": 5
+      "value": 25
     },
     {
       "item": "culturaldelights:avocado"
-    },
-    {
-      "item": "culturaldelights:avocado_pit",
-      "value": 5
     },
     {
       "item": "culturaldelights:avocado_toast"
@@ -716,10 +816,6 @@
       "item": "farmersrespite:coffee_berries"
     },
     {
-      "item": "farmersrespite:coffee_cake",
-      "value": 147
-    },
-    {
       "item": "farmersrespite:coffee_cake_slice"
     },
     {
@@ -845,18 +941,18 @@
     },
     {
       "item": "italian_delight:pandoro",
-      "value": 168
+      "value": 120
     },
     {
       "item": "italian_delight:pandoro_dough",
-      "value": 56
+      "value": 40
     },
     {
       "item": "italian_delight:pandoro_slice"
     },
     {
       "item": "italian_delight:panettone",
-      "value": 168
+      "value": 120
     },
     {
       "item": "italian_delight:panettone_slice"
@@ -887,6 +983,73 @@
     },
     {
       "item": "largemeals:sweet_berry_custard"
+    },
+    {
+      "item": "minecraft:apple"
+    },
+    {
+      "item": "minecraft:baked_potato"
+    },
+    {
+      "item": "minecraft:beetroot"
+    },
+    {
+      "item": "minecraft:beetroot_seeds",
+      "value": 5
+    },
+    {
+      "item": "minecraft:bread"
+    },
+    {
+      "item": "minecraft:carrot"
+    },
+    {
+      "item": "minecraft:chorus_fruit"
+    },
+    {
+      "item": "minecraft:cookie"
+    },
+    {
+      "item": "minecraft:dried_kelp"
+    },
+    {
+      "item": "minecraft:glow_berries"
+    },
+    {
+      "item": "minecraft:melon_seeds",
+      "value": 5
+    },
+    {
+      "item": "minecraft:melon_slice"
+    },
+    {
+      "item": "minecraft:potato"
+    },
+    {
+      "item": "minecraft:pumpkin_pie"
+    },
+    {
+      "item": "minecraft:pumpkin_seeds",
+      "value": 5
+    },
+    {
+      "item": "minecraft:sugar",
+      "value": 5
+    },
+    {
+      "item": "minecraft:sugar_cane",
+      "value": 15
+    },
+    {
+      "item": "minecraft:sweet_berries"
+    },
+    {
+      "item": "minecraft:wheat",
+      "value": 3
+    },
+    {
+      "item": "minecraft:wheat_seeds",
+      "value": 5
     },
     {
       "item": "miners_delight:baked_cave_carrot"

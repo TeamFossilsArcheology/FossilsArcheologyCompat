@@ -4,6 +4,9 @@ import club.someoneice.pineapple.init.BlockList;
 import club.someoneice.pineapple.init.ItemList;
 import com.github.teamfossilsarcheology.fossil_compat.FoodType;
 import com.github.teamfossilsarcheology.fossil_compat.FoodValueProvider;
+import vectorwing.farmersdelight.common.block.PieBlock;
+
+import static com.github.teamfossilsarcheology.fossil_compat.forge.compat.FarmersDelightCompat.getPieValue;
 
 public class PineappleDelightCompat {
     public static void bootstrap(FoodValueProvider provider) {
@@ -17,9 +20,9 @@ public class PineappleDelightCompat {
         plant.item(ItemList.PINEAPPLE_FRIED_RICE.get());
         plant.item(ItemList.PINEAPPLE_CAKE_SLICE.get());
 
-        plant.block(BlockList.PINEAPPLE_PIE.get(), 4);
-        plant.block(BlockList.PINEAPPLE_CAKE.get(), 3 * 4);
-        plant.block(BlockList.PINEAPPLE_WILD_CROP.get(), 1);
-        plant.block(BlockList.PINEAPPLE_CROP.get(), 1);
+        plant.block(BlockList.PINEAPPLE_PIE.get(), getPieValue((PieBlock) BlockList.PINEAPPLE_PIE.get()));
+        plant.block(BlockList.PINEAPPLE_CAKE.get(), 7 * 2);
+        plant.block(BlockList.PINEAPPLE_WILD_CROP.get(), 3);
+        plant.block(BlockList.PINEAPPLE_CROP.get(), 3);
     }
 }

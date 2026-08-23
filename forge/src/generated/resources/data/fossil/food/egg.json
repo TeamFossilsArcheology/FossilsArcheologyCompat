@@ -6,11 +6,11 @@
     },
     {
       "item": "betteranimalsplus:golden_goose_egg",
-      "value": 18
+      "value": 21
     },
     {
       "item": "betteranimalsplus:goose_egg",
-      "value": 12
+      "value": 14
     },
     {
       "item": "betteranimalsplus:pheasant_egg",
@@ -50,7 +50,7 @@
     },
     {
       "item": "exoticbirds:cassowary_egg",
-      "value": 15
+      "value": 21
     },
     {
       "item": "exoticbirds:cockatoo_egg",
@@ -58,7 +58,7 @@
     },
     {
       "item": "exoticbirds:crane_egg",
-      "value": 12
+      "value": 14
     },
     {
       "item": "exoticbirds:duck_egg",
@@ -78,7 +78,7 @@
     },
     {
       "item": "exoticbirds:heron_egg",
-      "value": 12
+      "value": 14
     },
     {
       "item": "exoticbirds:hummingbird_egg",
@@ -110,7 +110,7 @@
     },
     {
       "item": "exoticbirds:ostrich_egg",
-      "value": 17
+      "value": 21
     },
     {
       "item": "exoticbirds:owl_egg",
@@ -157,6 +157,10 @@
     },
     {
       "item": "farmersdelight:fried_egg"
+    },
+    {
+      "item": "minecraft:egg",
+      "value": 7
     },
     {
       "item": "miners_delight:silverfish_eggs"

@@ -12,9 +12,9 @@ public class CulturalDelightCompat {
         var fish = provider.type(FoodType.FISH);
         var meat = provider.type(FoodType.MEAT);
         var plant = provider.type(FoodType.PLANT);
-        plant.item(CDObjects.CUCUMBER_SEEDS, 5);
-        plant.item(CDObjects.CORN_KERNELS, 5);
-        plant.item(CDObjects.EGGPLANT_SEEDS, 5);
+        plant.item(CDObjects.CUCUMBER_SEEDS, 1);
+        plant.item(CDObjects.CORN_KERNELS, 1);
+        plant.item(CDObjects.EGGPLANT_SEEDS, 1);
         plant.item(CDObjects.AVOCADO);
         plant.item(CDObjects.CUT_AVOCADO);
         plant.item(CDObjects.CUCUMBER);
@@ -59,10 +59,10 @@ public class CulturalDelightCompat {
         fish.item(CDObjects.TROPICAL_ROLL);
         fish.item(CDObjects.RICE_BALL); //This has fish in it so I count it as fish
         fish.item(CDObjects.CALAMARI_ROLL);
-        plant.block(CDObjects.AVOCADO_LEAVES, 20);
-        plant.block(CDObjects.AVOCADO_SAPLING, 15);
+        plant.block(CDObjects.AVOCADO_LEAVES, 4);
+        plant.block(CDObjects.AVOCADO_SAPLING, 3);
         plant.item(CDObjects.AVOCADO_TOAST);
-        plant.item(CDObjects.ITEMS.keySet().stream().filter(v -> Objects.equals(v.toString(), "avocado_pit")).toList().get(0), 5);
+        plant.block(CDObjects.AVOCADO_PIT, 1);
         //51/51 added! That is a lot of food!
     }
 }

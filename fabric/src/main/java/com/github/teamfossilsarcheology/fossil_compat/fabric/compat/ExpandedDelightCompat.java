@@ -11,10 +11,10 @@ public class ExpandedDelightCompat {
         var fish = provider.type(FoodType.FISH);
         var meat = provider.type(FoodType.MEAT);
         var plant = provider.type(FoodType.PLANT);
-        plant.item(ItemList.RAW_CINNAMON, 5);
-        plant.item(ItemList.GROUND_CINNAMON, 15);
-        plant.item(ItemList.ASPARAGUS_SEEDS, 5);
-        plant.item(ItemList.CHILI_PEPPER_SEEDS, 5);
+        plant.item(ItemList.RAW_CINNAMON, 1);
+        plant.item(ItemList.GROUND_CINNAMON, 3);
+        plant.item(ItemList.ASPARAGUS_SEEDS, 1);
+        plant.item(ItemList.CHILI_PEPPER_SEEDS, 1);
         plant.item(ItemList.ASPARAGUS);
         plant.item(ItemList.SWEET_POTATO);
         plant.item(ItemList.CHILI_PEPPER);
@@ -41,7 +41,7 @@ public class ExpandedDelightCompat {
         //Mac and cheese excluded
         //Cheesy asparagus and bacon excluded
         plant.item(ItemList.PEPERONATA); //Pasta with onions, vegetables and tomatoes
-        plant.block(BlockList.CINNAMON_SAPLING, 15);
+        plant.block(BlockList.CINNAMON_SAPLING, 3);
         plant.item(ItemList.GLOW_BERRY_JELLY_SANDWICH);
     }
 

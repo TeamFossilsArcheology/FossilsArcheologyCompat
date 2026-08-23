@@ -13,5 +13,6 @@ public class DataGenerators {
     public static void register(GatherDataEvent event) {
         DataGenerator generator = event.getGenerator();
         generator.addProvider(new ModFoodValueProvider(generator));
+        generator.addProvider(new FossilFarmersRecipeProvider(generator));
     }
 }

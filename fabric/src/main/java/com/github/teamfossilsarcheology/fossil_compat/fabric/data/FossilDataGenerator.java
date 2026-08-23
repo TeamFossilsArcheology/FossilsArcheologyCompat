@@ -8,6 +8,7 @@ public class FossilDataGenerator implements DataGeneratorEntrypoint {
     @Override
     public void onInitializeDataGenerator(FabricDataGenerator generator) {
         generator.addProvider(new ModFoodValueProvider(generator));
+        generator.addProvider(new FossilFarmersRecipeProvider(generator));
     }
 
 }
