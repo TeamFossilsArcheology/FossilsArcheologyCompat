@@ -47,7 +47,7 @@ public class EndDelightCompat {
         meat.item(ItemRegistry.SmokedDragonLeg.get());
         meat.item(ItemRegistry.StirFriedShulkerMeat.get());
         plant.item(ItemRegistry.StuffedRiceCake.get());
-        plant.item(ItemRegistry.DriedChorusFlower.get(), 5);
+        plant.item(ItemRegistry.DriedChorusFlower.get(), 1);
         egg.item(ItemRegistry.SteamedDragonEgg.get());
         //33/33 added
     }

@@ -15,7 +15,7 @@ public class CornDelightCompat {
         meat.item(ItemRegistry.CLASSIC_CORN_DOG.get());
         plant.item(ItemRegistry.CORN.get());
         meat.item(ItemRegistry.CORN_DOG.get());
-        plant.item(ItemRegistry.CORN_SEEDS.get(), 5);
+        plant.item(ItemRegistry.CORN_SEEDS.get(), 1);
         plant.item(ItemRegistry.CORN_SOUP.get());
         plant.item(ItemRegistry.CORNBREAD.get());
         plant.item(ItemRegistry.CORNBREAD_BATTER.get());

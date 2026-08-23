@@ -12,7 +12,7 @@ public class ItalianDelightCompat {
         var plant = provider.type(FoodType.PLANT);
         plant.item(ItalianDelightModItems.PIZZA_MARGHERITA_SLICE.get()); //Normally I wouldn't count pizzas as they contain cheese, but this mod is basically mostly pizzas, so I will make an exception
         plant.item(ItalianDelightModItems.PIZZA_DIAVOLA_SLICE.get());
-        plant.item(ItalianDelightModItems.GRAPE_SEEDS.get(), 5);
+        plant.item(ItalianDelightModItems.GRAPE_SEEDS.get(), 1);
         plant.item(ItalianDelightModItems.GRAPE_BUNCH.get());
         meat.item(ItalianDelightModItems.SALAMI.get());
         meat.item(ItalianDelightModItems.SALAMI_PIECES.get());
@@ -23,12 +23,12 @@ public class ItalianDelightCompat {
         plant.item(ItalianDelightModItems.RISOTTO_AL_SUGO.get());
         plant.item(ItalianDelightModItems.DANTES_SPECIAL_SLICE.get());
         plant.item(ItalianDelightModItems.BERRIEDDELIGHT.get());
-        plant.item(ItalianDelightModItems.PANDORO_DOUGH.get(), 8 * 7); //8 slices of one food point
-        plant.item(ItalianDelightModItems.PANDORO.get(), 3 * 8 * 7);
+        plant.item(ItalianDelightModItems.PANDORO_DOUGH.get(), 8); //8 slices of one food point
+        plant.item(ItalianDelightModItems.PANDORO.get(), 3 * 8);
         plant.item(ItalianDelightModItems.PANDORO_SLICE.get());
         plant.item(ItalianDelightModItems.PASTA_AL_PESTO.get());
         plant.item(ItalianDelightModItems.TOMATO_PASTA.get()); //This mod is making me especially hungry
-        plant.item(ItalianDelightModItems.PANETTONE.get(), 3 * 8 * 7);
+        plant.item(ItalianDelightModItems.PANETTONE.get(), 3 * 8);
         plant.item(ItalianDelightModItems.PANETTONE_SLICE.get());
         plant.item(ItalianDelightModItems.TIRAMISU.get());
         plant.item(ItalianDelightModItems.MOZZARELLA.get());

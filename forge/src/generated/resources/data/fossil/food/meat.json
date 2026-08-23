@@ -311,6 +311,9 @@
       "item": "casualness_delight:bowl_of_fried_dumpling"
     },
     {
+      "item": "casualness_delight:chicken_bobo_chicken"
+    },
+    {
       "item": "casualness_delight:cooked_donkey_meat"
     },
     {
@@ -330,11 +333,7 @@
     },
     {
       "item": "casualness_delight:raw_chicken_bobo_chicken",
-      "value": 20
-    },
-    {
-      "item": "casualness_delight:raw_chicken_bobo_chicken",
-      "value": 20
+      "value": 14
     },
     {
       "item": "casualness_delight:raw_donkey_meat"
@@ -344,14 +343,14 @@
     },
     {
       "item": "casualness_delight:raw_spring_roll",
-      "value": 20
+      "value": 42
     },
     {
       "item": "casualness_delight:spring_roll"
     },
     {
       "item": "casualness_delight:spring_roll_medley",
-      "value": 180
+      "value": 252
     },
     {
       "item": "casualness_delight:tonkatsu"
@@ -616,7 +615,7 @@
     },
     {
       "item": "fossil:failuresaurus_flesh",
-      "value": 15
+      "value": 21
     },
     {
       "item": "italian_delight:pizza_prosciutto_slice"
@@ -635,13 +634,47 @@
     },
     {
       "item": "largemeals:mushroom_pot_pie",
-      "value": 200
+      "value": 280
     },
     {
       "item": "largemeals:mushroom_pot_pie_slice"
     },
     {
       "item": "largemeals:omurice"
+    },
+    {
+      "item": "minecraft:beef"
+    },
+    {
+      "item": "minecraft:chicken"
+    },
+    {
+      "item": "minecraft:cooked_beef"
+    },
+    {
+      "item": "minecraft:cooked_chicken"
+    },
+    {
+      "item": "minecraft:cooked_mutton"
+    },
+    {
+      "item": "minecraft:cooked_porkchop"
+    },
+    {
+      "item": "minecraft:cooked_rabbit"
+    },
+    {
+      "item": "minecraft:mutton"
+    },
+    {
+      "item": "minecraft:porkchop"
+    },
+    {
+      "item": "minecraft:rabbit"
+    },
+    {
+      "item": "minecraft:rabbit_foot",
+      "value": 7
     },
     {
       "item": "miners_delight:bat_wing"
@@ -906,6 +939,106 @@
     {
       "entity": "exoticbirds:woodpecker",
       "value": 3
+    },
+    {
+      "entity": "minecraft:axolotl",
+      "value": 5
+    },
+    {
+      "entity": "minecraft:bat",
+      "value": 5
+    },
+    {
+      "entity": "minecraft:cat",
+      "value": 10
+    },
+    {
+      "entity": "minecraft:cave_spider",
+      "value": 15
+    },
+    {
+      "entity": "minecraft:chicken",
+      "value": 7
+    },
+    {
+      "entity": "minecraft:cow",
+      "value": 40
+    },
+    {
+      "entity": "minecraft:donkey",
+      "value": 45
+    },
+    {
+      "entity": "minecraft:fox",
+      "value": 15
+    },
+    {
+      "entity": "minecraft:goat",
+      "value": 30
+    },
+    {
+      "entity": "minecraft:hoglin",
+      "value": 55
+    },
+    {
+      "entity": "minecraft:horse",
+      "value": 55
+    },
+    {
+      "entity": "minecraft:llama",
+      "value": 50
+    },
+    {
+      "entity": "minecraft:mooshroom",
+      "value": 40
+    },
+    {
+      "entity": "minecraft:mule",
+      "value": 50
+    },
+    {
+      "entity": "minecraft:ocelot",
+      "value": 4
+    },
+    {
+      "entity": "minecraft:panda",
+      "value": 27
+    },
+    {
+      "entity": "minecraft:parrot",
+      "value": 2
+    },
+    {
+      "entity": "minecraft:pig",
+      "value": 20
+    },
+    {
+      "entity": "minecraft:player",
+      "value": 27
+    },
+    {
+      "entity": "minecraft:polar_bear",
+      "value": 60
+    },
+    {
+      "entity": "minecraft:rabbit",
+      "value": 5
+    },
+    {
+      "entity": "minecraft:sheep",
+      "value": 35
+    },
+    {
+      "entity": "minecraft:spider",
+      "value": 30
+    },
+    {
+      "entity": "minecraft:villager",
+      "value": 27
+    },
+    {
+      "entity": "minecraft:wolf",
+      "value": 15
     },
     {
       "entity": "naturalist:bear",

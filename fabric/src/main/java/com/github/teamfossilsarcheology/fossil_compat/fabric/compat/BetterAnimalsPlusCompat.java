@@ -48,10 +48,10 @@ public class BetterAnimalsPlusCompat {
         meat.item(ModItems.PHEASANT_COOKED.get());
         fish.item(ModItems.CRAB_MEAT_RAW.get());
         fish.item(ModItems.CRAB_MEAT_COOKED.get());
-        egg.item(ModItems.PHEASANT_EGG.get(), 7);
-        egg.item(ModItems.TURKEY_EGG.get(), 7);
-        egg.item(ModItems.GOOSE_EGG.get(), 12);
-        egg.item(ModItems.GOLDEN_GOOSE_EGG.get(), 18);
+        egg.item(ModItems.PHEASANT_EGG.get(), 1);
+        egg.item(ModItems.TURKEY_EGG.get(), 1);
+        egg.item(ModItems.GOOSE_EGG.get(), 2);
+        egg.item(ModItems.GOLDEN_GOOSE_EGG.get(), 3);
         meat.item(ModItems.TURKEY_LEG_RAW.get());
         meat.item(ModItems.TURKEY_LEG_COOKED.get());
         fish.item(ModItems.EEL_MEAT_RAW.get());

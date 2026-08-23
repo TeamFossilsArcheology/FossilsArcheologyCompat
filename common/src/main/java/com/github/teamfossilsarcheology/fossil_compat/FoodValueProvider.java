@@ -94,7 +94,7 @@ public abstract class FoodValueProvider implements DataProvider {
         }
 
         public void blockTag(TagKey<Block> tag, int value) {
-            blocks.add(new Entry(tag.location(), value, TAG));
+            blocks.add(new Entry(tag.location(), value * type.multiplier(), TAG));
         }
 
         public void itemTag(TagKey<Item> tag) {
@@ -117,28 +117,38 @@ public abstract class FoodValueProvider implements DataProvider {
         }
 
         /**
-         * Adds the given item to the list with the given value
+         * Adds the given item to the list with the given nutrition multiplied by the {@link FoodType#multiplier()}
          */
-        public void item(Item item, int value) {
+        public void item(Item item, int nutrition) {
+            item(item, nutrition, type.multiplier());
+        }
+
+        public void item(ResourceLocation key, int nutrition) {
+            item(key, nutrition, type.multiplier());
+        }
+
+        public void item(ResourceLocation key, int nutrition, int multiplier) {
+            items.add(new Entry(key, nutrition * multiplier, ITEM));
+        }
+
+        public void item(Item item, int nutrition, int multiplier) {
             if (item != Items.AIR) {
-                item(Registry.ITEM.getKey(item.asItem()), value);
+                item(Registry.ITEM.getKey(item.asItem()), nutrition, multiplier);
             }
         }
 
-        public void item(ResourceLocation key, int value) {
-            items.add(new Entry(key, value, ITEM));
-        }
 
         /**
-         * Adds the given block to the list with the given value multiplied by the {@link FoodType#multiplier()}
+         * Adds the given block to the list with the given nutrition multiplied by the {@link FoodType#multiplier()}
          */
-        public void block(Block block, int value) {
+        public void block(Block block, int nutrition) {
             if (block != Blocks.AIR) {
-                block(Registry.BLOCK.getKey(block), value * type.multiplier());
+                block(Registry.BLOCK.getKey(block), nutrition);
             }
         }
-        public void block(ResourceLocation key, int value) {
-            blocks.add(new Entry(key, value * type.multiplier(), BLOCK));
+
+        public void block(ResourceLocation key, int nutrition) {
+            blocks.add(new Entry(key, nutrition * type.multiplier(), BLOCK));
         }
 
         public void entityTag(TagKey<EntityType<?>> tag) {

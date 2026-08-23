@@ -53,27 +53,27 @@ public class VanillaFoodProvider {
         meat.entity(EntityType.SPIDER, 30);
         meat.entity(EntityType.CAVE_SPIDER, 15);
 
-        egg.item(Items.EGG, 7);
+        egg.item(Items.EGG, 1);
 
         plant.itemTag(TagKey.create(Registry.ITEM_REGISTRY, new ResourceLocation("c:foods/berry")));
         plant.itemTag(TagKey.create(Registry.ITEM_REGISTRY, new ResourceLocation("c:foods/bread")));
         plant.itemTag(TagKey.create(Registry.ITEM_REGISTRY, new ResourceLocation("c:foods/fruit")));
         plant.itemTag(TagKey.create(Registry.ITEM_REGISTRY, new ResourceLocation("c:foods/vegetable")));
-        plant.blockTag(BlockTags.LEAVES, 20);
-        plant.blockTag(BlockTags.FLOWERS, 5);
-        plant.blockTag(BlockTags.SAPLINGS, 15);
+        plant.blockTag(BlockTags.LEAVES, 4);
+        plant.blockTag(BlockTags.FLOWERS, 1);
+        plant.blockTag(BlockTags.SAPLINGS, 3);
         //crop: nutrition * max drop
-        plant.block(Blocks.BEETROOTS, Foods.BEETROOT.getNutrition() + 2);
-        plant.block(Blocks.BROWN_MUSHROOM, 3);
-        plant.block(Blocks.CAKE, 14);
+        plant.block(Blocks.BEETROOTS, Foods.BEETROOT.getNutrition() * 2);
+        plant.block(Blocks.BROWN_MUSHROOM, 3); //Mushroom Stew / 2
+        plant.block(Blocks.CAKE, 14); //7 bites * 2
         plant.block(Blocks.CARROTS, Foods.CARROT.getNutrition() * 5);
         plant.block(Blocks.CHORUS_FLOWER, Foods.CHORUS_FRUIT.getNutrition() * 2);
         plant.block(Blocks.CHORUS_PLANT, Foods.CHORUS_FRUIT.getNutrition());
         plant.block(Blocks.GRASS, 1);
-        plant.block(Blocks.HAY_BLOCK, 15);
+        plant.block(Blocks.HAY_BLOCK, Foods.BREAD.getNutrition() * 3);
         plant.block(Blocks.KELP, Foods.DRIED_KELP.getNutrition());
         plant.block(Blocks.KELP_PLANT, Foods.DRIED_KELP.getNutrition());
-        plant.block(Blocks.LILY_PAD, 2);
+        plant.block(Blocks.LILY_PAD, 1);
         plant.block(Blocks.MELON, Foods.MELON_SLICE.getNutrition() * 5);
         plant.block(Blocks.POTATOES, Foods.POTATO.getNutrition() * 5);
         plant.block(Blocks.PUMPKIN, Foods.MELON_SLICE.getNutrition() * 4);
@@ -86,24 +86,23 @@ public class VanillaFoodProvider {
         plant.item(Items.APPLE);
         plant.item(Items.BAKED_POTATO);
         plant.item(Items.BEETROOT);
-        plant.item(Items.BEETROOT_SEEDS, 5);
+        plant.item(Items.BEETROOT_SEEDS, 1);
         plant.item(Items.BREAD);
-        plant.item(Items.CAKE, 14 * 5);
         plant.item(Items.CARROT);
         plant.item(Items.CHORUS_FRUIT);
         plant.item(Items.COOKIE);
         plant.item(Items.DRIED_KELP);
         plant.item(Items.GLOW_BERRIES);
-        plant.item(Items.MELON_SEEDS, 5);
+        plant.item(Items.MELON_SEEDS, 1);
         plant.item(Items.MELON_SLICE);
         plant.item(Items.POTATO);
         plant.item(Items.PUMPKIN_PIE);
-        plant.item(Items.PUMPKIN_SEEDS, 5);
-        plant.item(Items.SUGAR, 7);
-        plant.item(Items.SUGAR_CANE, 15);
+        plant.item(Items.PUMPKIN_SEEDS, 1);
+        plant.item(Items.SUGAR, 1);
+        plant.item(Items.SUGAR_CANE, 3);
         plant.item(Items.SWEET_BERRIES);
-        plant.item(Items.WHEAT, 13);
-        plant.item(Items.WHEAT_SEEDS, 5);
+        plant.item(Items.WHEAT, 1, 3); //Bread * multiplier / 3
+        plant.item(Items.WHEAT_SEEDS, 1);
 
         fish.item(Items.COD);
         fish.item(Items.PUFFERFISH);
@@ -122,6 +121,6 @@ public class VanillaFoodProvider {
         meat.item(Items.COOKED_MUTTON);
         meat.item(Items.RABBIT);
         meat.item(Items.COOKED_RABBIT);
-        meat.item(Items.RABBIT_FOOT, 7);
+        meat.item(Items.RABBIT_FOOT, 1, 7);
     }
 }

@@ -35,6 +35,9 @@
       "item": "casualness_delight:bowl_of_fried_dumpling"
     },
     {
+      "item": "casualness_delight:chicken_bobo_chicken"
+    },
+    {
       "item": "casualness_delight:cooked_donkey_meat"
     },
     {
@@ -54,11 +57,7 @@
     },
     {
       "item": "casualness_delight:raw_chicken_bobo_chicken",
-      "value": 28
-    },
-    {
-      "item": "casualness_delight:raw_chicken_bobo_chicken",
-      "value": 28
+      "value": 14
     },
     {
       "item": "casualness_delight:raw_donkey_meat"
@@ -68,7 +67,7 @@
     },
     {
       "item": "casualness_delight:raw_spring_roll",
-      "value": 28
+      "value": 42
     },
     {
       "item": "casualness_delight:spring_roll"
@@ -250,7 +249,7 @@
     },
     {
       "item": "fossil:failuresaurus_flesh",
-      "value": 15
+      "value": 21
     },
     {
       "item": "minecraft:beef"

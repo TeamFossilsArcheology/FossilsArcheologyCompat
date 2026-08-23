@@ -10,11 +10,11 @@ public class FarmerRespiteCompat {
         var fish = provider.type(FoodType.FISH);
         var meat = provider.type(FoodType.MEAT);
         var plant = provider.type(FoodType.PLANT);
-        item(plant, "wild_tea_bush", 20);
-        item(plant, "tea_seeds", 5);
-        item(plant, "green_tea_leaves", 5);
-        item(plant, "yellow_tea_leaves", 5);
-        item(plant, "black_tea_leaves", 5);
+        item(plant, "wild_tea_bush", 1);
+        item(plant, "tea_seeds", 1);
+        item(plant, "green_tea_leaves", 1);
+        item(plant, "yellow_tea_leaves", 1);
+        item(plant, "black_tea_leaves", 1);
         item(plant, "coffee_berries");
         item(plant, "rose_hips", 5);
         item(plant, "green_tea_cookie");
@@ -22,9 +22,9 @@ public class FarmerRespiteCompat {
         item(fish, "black_cod");
         item(plant, "tea_curry");
         item(meat, "blazing_chili");
-        item(plant, "coffee_cake", 7 * FoodType.PLANT.multiplier() * 3);
+        item(plant, "coffee_cake", 7 * 3);
         item(plant, "coffee_cake_slice");
-        item(plant, "rose_hip_pie", 3 * 4 * 5);
+        item(plant, "rose_hip_pie", 3 * 4);
         //item(plant, "rose_hip_pie", getPieValue((PieBlock) FRBlocks.ROSE_HIP_PIE));
         item(plant, "rose_hip_pie_slice");
     }

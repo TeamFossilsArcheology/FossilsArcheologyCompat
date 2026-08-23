@@ -46,8 +46,8 @@ public class FarmersDelightCompat {
         plant.item(ItemsRegistry.STUFFED_PUMPKIN.get());
         plant.item(ItemsRegistry.ROAST_CHICKEN.get());
         plant.item(ItemsRegistry.ROAST_CHICKEN.get());
-        plant.item(ItemsRegistry.CABBAGE_SEEDS.get(), 5);
-        plant.item(ItemsRegistry.TOMATO_SEEDS.get(), 5);
+        plant.item(ItemsRegistry.CABBAGE_SEEDS.get(), 1);
+        plant.item(ItemsRegistry.TOMATO_SEEDS.get(), 1);
 
         egg.item(ItemsRegistry.FRIED_EGG.get());
         egg.item(ItemsRegistry.EGG_SANDWICH.get());

@@ -47,8 +47,8 @@ public class FarmersDelightCompat {
         plant.item(ModItems.STUFFED_PUMPKIN.get());
         plant.item(ModItems.ROAST_CHICKEN.get());
         plant.item(ModItems.ROAST_CHICKEN.get());
-        plant.item(ModItems.CABBAGE_SEEDS.get(), 5);
-        plant.item(ModItems.TOMATO_SEEDS.get(), 5);
+        plant.item(ModItems.CABBAGE_SEEDS.get(), 1);
+        plant.item(ModItems.TOMATO_SEEDS.get(), 1);
 
         egg.item(ModItems.FRIED_EGG.get());
         egg.item(ModItems.EGG_SANDWICH.get());
@@ -98,6 +98,6 @@ public class FarmersDelightCompat {
     }
 
     public static int getPieValue(PieBlock block) {
-        return block.getPieSliceItem().getItem().getFoodProperties().getNutrition() * block.getMaxBites() * 5;
+        return block.getPieSliceItem().getItem().getFoodProperties().getNutrition() * block.getMaxBites();
     }
 }

@@ -6,7 +6,7 @@ import com.github.teamfossilsarcheology.fossil_compat.FoodType;
 import com.github.teamfossilsarcheology.fossil_compat.FoodValueProvider;
 import com.nhoryzon.mc.farmersdelight.block.PieBlock;
 
-import static com.github.teamfossilsarcheology.fossil.fabric.compat.farmers.FarmersDelightCompat.getPieValue;
+import static com.github.teamfossilsarcheology.fossil_compat.fabric.compat.FarmersDelightCompat.getPieValue;
 
 public class EndDelightCompat {
     public static void bootstrap(FoodValueProvider provider) {
@@ -47,7 +47,7 @@ public class EndDelightCompat {
         meat.item(ModItem.SmokedDragonLeg.get());
         meat.item(ModItem.StirFriedShulkerMeat.get());
         plant.item(ModItem.StuffedRiceCake.get());
-        plant.item(ModItem.DriedChorusFlower.get(), 5);
+        plant.item(ModItem.DriedChorusFlower.get(), 1);
         egg.item(ModItem.SteamedDragonEgg.get());
         //33/33 added
     }
