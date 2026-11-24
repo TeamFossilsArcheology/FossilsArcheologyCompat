@@ -42,6 +42,7 @@ public class ModFoodValueProvider extends FoodValueProvider {
         PineappleDelightCompat.bootstrap(this);
         SeedDelightCompat.bootstrap(this);
 
+        AlexMobsCompat.bootstrap(this);
         BetterAnimalsPlusCompat.bootstrap(this);
         ExoticBirdsCompat.bootstrap(this);
         NaturalistCompat.bootstrap(this);

@@ -11,6 +11,30 @@
       "item": "alexsdelight:raw_catfish_slice"
     },
     {
+      "item": "alexsmobs:blobfish"
+    },
+    {
+      "item": "alexsmobs:cooked_catfish"
+    },
+    {
+      "item": "alexsmobs:cooked_lobster_tail"
+    },
+    {
+      "item": "alexsmobs:cosmic_cod"
+    },
+    {
+      "item": "alexsmobs:flying_fish"
+    },
+    {
+      "item": "alexsmobs:lobster_tail"
+    },
+    {
+      "item": "alexsmobs:rainbow_jelly"
+    },
+    {
+      "item": "alexsmobs:raw_catfish"
+    },
+    {
       "item": "betteranimalsplus:calamari_cooked"
     },
     {
@@ -258,6 +282,86 @@
     }
   ],
   "entities": [
+    {
+      "entity": "alexsmobs:alligator_snapping_turtle",
+      "value": 9
+    },
+    {
+      "entity": "alexsmobs:anaconda",
+      "value": 5
+    },
+    {
+      "entity": "alexsmobs:blobfish",
+      "value": 4
+    },
+    {
+      "entity": "alexsmobs:cachalot_whale",
+      "value": 80
+    },
+    {
+      "entity": "alexsmobs:catfish",
+      "value": 5
+    },
+    {
+      "entity": "alexsmobs:comb_jelly",
+      "value": 3
+    },
+    {
+      "entity": "alexsmobs:cosmic_cod",
+      "value": 2
+    },
+    {
+      "entity": "alexsmobs:crocodile",
+      "value": 15
+    },
+    {
+      "entity": "alexsmobs:devils_hole_pupfish",
+      "value": 1
+    },
+    {
+      "entity": "alexsmobs:flying_fish",
+      "value": 3
+    },
+    {
+      "entity": "alexsmobs:frilled_shark",
+      "value": 10
+    },
+    {
+      "entity": "alexsmobs:giant_squid",
+      "value": 19
+    },
+    {
+      "entity": "alexsmobs:hammerhead_shark",
+      "value": 15
+    },
+    {
+      "entity": "alexsmobs:lobster",
+      "value": 3
+    },
+    {
+      "entity": "alexsmobs:mantis_shrimp",
+      "value": 10
+    },
+    {
+      "entity": "alexsmobs:mimic_octopus",
+      "value": 8
+    },
+    {
+      "entity": "alexsmobs:orca",
+      "value": 30
+    },
+    {
+      "entity": "alexsmobs:sea_bear",
+      "value": 100
+    },
+    {
+      "entity": "alexsmobs:seal",
+      "value": 5
+    },
+    {
+      "entity": "alexsmobs:terrapin",
+      "value": 7
+    },
     {
       "entity": "betteranimalsplus:barracuda",
       "value": 15

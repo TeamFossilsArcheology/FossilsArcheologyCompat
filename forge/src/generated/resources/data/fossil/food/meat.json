@@ -56,6 +56,21 @@
       "item": "alexsdelight:raw_bunfungus_drumstick"
     },
     {
+      "item": "alexsmobs:cooked_kangaroo_meat"
+    },
+    {
+      "item": "alexsmobs:cooked_moose_ribs"
+    },
+    {
+      "item": "alexsmobs:kangaroo_meat"
+    },
+    {
+      "item": "alexsmobs:maggot"
+    },
+    {
+      "item": "alexsmobs:moose_ribs"
+    },
+    {
       "item": "argentinas_delight:achurasitem"
     },
     {
@@ -753,6 +768,170 @@
     }
   ],
   "entities": [
+    {
+      "entity": "alexsmobs:anteater",
+      "value": 10
+    },
+    {
+      "entity": "alexsmobs:bald_eagle",
+      "value": 8
+    },
+    {
+      "entity": "alexsmobs:bison",
+      "value": 20
+    },
+    {
+      "entity": "alexsmobs:bunfungus",
+      "value": 40
+    },
+    {
+      "entity": "alexsmobs:capuchin_monkey",
+      "value": 5
+    },
+    {
+      "entity": "alexsmobs:centipede_head",
+      "value": 18
+    },
+    {
+      "entity": "alexsmobs:cockroach",
+      "value": 9
+    },
+    {
+      "entity": "alexsmobs:cosmaw",
+      "value": 10
+    },
+    {
+      "entity": "alexsmobs:crimson_mosquito",
+      "value": 5
+    },
+    {
+      "entity": "alexsmobs:crow",
+      "value": 4
+    },
+    {
+      "entity": "alexsmobs:dropbear",
+      "value": 11
+    },
+    {
+      "entity": "alexsmobs:elephant",
+      "value": 33
+    },
+    {
+      "entity": "alexsmobs:emu",
+      "value": 10
+    },
+    {
+      "entity": "alexsmobs:endergrade",
+      "value": 10
+    },
+    {
+      "entity": "alexsmobs:froststalker",
+      "value": 12
+    },
+    {
+      "entity": "alexsmobs:gazelle",
+      "value": 4
+    },
+    {
+      "entity": "alexsmobs:gelada_monkey",
+      "value": 9
+    },
+    {
+      "entity": "alexsmobs:gorilla",
+      "value": 25
+    },
+    {
+      "entity": "alexsmobs:grizzly_bear",
+      "value": 28
+    },
+    {
+      "entity": "alexsmobs:hummingbird",
+      "value": 2
+    },
+    {
+      "entity": "alexsmobs:jerboa",
+      "value": 2
+    },
+    {
+      "entity": "alexsmobs:kangaroo",
+      "value": 11
+    },
+    {
+      "entity": "alexsmobs:komodo_dragon",
+      "value": 15
+    },
+    {
+      "entity": "alexsmobs:maned_wolf",
+      "value": 8
+    },
+    {
+      "entity": "alexsmobs:moose",
+      "value": 28
+    },
+    {
+      "entity": "alexsmobs:mungus",
+      "value": 8
+    },
+    {
+      "entity": "alexsmobs:platypus",
+      "value": 5
+    },
+    {
+      "entity": "alexsmobs:raccoon",
+      "value": 5
+    },
+    {
+      "entity": "alexsmobs:rattlesnake",
+      "value": 4
+    },
+    {
+      "entity": "alexsmobs:roadrunner",
+      "value": 4
+    },
+    {
+      "entity": "alexsmobs:seagull",
+      "value": 4
+    },
+    {
+      "entity": "alexsmobs:shoebill",
+      "value": 5
+    },
+    {
+      "entity": "alexsmobs:snow_leopard",
+      "value": 15
+    },
+    {
+      "entity": "alexsmobs:sunbird",
+      "value": 10
+    },
+    {
+      "entity": "alexsmobs:tarantula_hawk",
+      "value": 9
+    },
+    {
+      "entity": "alexsmobs:tasmanian_devil",
+      "value": 7
+    },
+    {
+      "entity": "alexsmobs:tiger",
+      "value": 25
+    },
+    {
+      "entity": "alexsmobs:toucan",
+      "value": 3
+    },
+    {
+      "entity": "alexsmobs:tusklin",
+      "value": 20
+    },
+    {
+      "entity": "alexsmobs:warped_mosco",
+      "value": 50
+    },
+    {
+      "entity": "alexsmobs:warped_toad",
+      "value": 15
+    },
     {
       "entity": "betteranimalsplus:badger",
       "value": 8
